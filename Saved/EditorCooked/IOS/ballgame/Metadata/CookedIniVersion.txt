@@ -162,17 +162,132 @@ Mac.Engine:Ping:StackSize:0=1048576
 Mac.Engine:Voice:bEnabled:0=false
 Mac.Engine:Voice:bDuckingOptOut:0=true
 Mac.Engine:SlateStyle:DefaultFontName:0=/Engine/EngineFonts/Roboto
+Mac.Engine:/Script/Engine.Engine:ConsoleClassName:0=/Script/Engine.Console
+Mac.Engine:/Script/Engine.Engine:GameViewportClientClassName:0=/Script/Engine.GameViewportClient
+Mac.Engine:/Script/Engine.Engine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
+Mac.Engine:/Script/Engine.Engine:WorldSettingsClassName:0=/Script/Engine.WorldSettings
+Mac.Engine:/Script/Engine.Engine:NavigationSystemClassName:0=/Script/Engine.NavigationSystem
+Mac.Engine:/Script/Engine.Engine:AvoidanceManagerClassName:0=/Script/Engine.AvoidanceManager
+Mac.Engine:/Script/Engine.Engine:PhysicsCollisionHandlerClassName:0=/Script/Engine.PhysicsCollisionHandler
+Mac.Engine:/Script/Engine.Engine:LevelScriptActorClassName:0=/Script/Engine.LevelScriptActor
+Mac.Engine:/Script/Engine.Engine:DefaultBlueprintBaseClassName:0=/Script/Engine.Actor
+Mac.Engine:/Script/Engine.Engine:GameUserSettingsClassName:0=/Script/Engine.GameUserSettings
+Mac.Engine:/Script/Engine.Engine:AIControllerClassName:0=/Script/AIModule.AIController
+Mac.Engine:/Script/Engine.Engine:AssetManagerClassName:0=/Script/Engine.AssetManager
 Mac.Engine:/Script/Engine.Engine:bAllowMatureLanguage:0=false
 Mac.Engine:/Script/Engine.Engine:GameEngine:0=/Script/Engine.GameEngine
 Mac.Engine:/Script/Engine.Engine:EditorEngine:0=/Script/UnrealEd.EditorEngine
 Mac.Engine:/Script/Engine.Engine:UnrealEdEngine:0=/Script/UnrealEd.UnrealEdEngine
+Mac.Engine:/Script/Engine.Engine:TinyFontName:0=/Engine/EngineFonts/RobotoTiny.RobotoTiny
+Mac.Engine:/Script/Engine.Engine:SmallFontName:0=/Engine/EngineFonts/Roboto.Roboto
+Mac.Engine:/Script/Engine.Engine:MediumFontName:0=/Engine/EngineFonts/Roboto.Roboto
+Mac.Engine:/Script/Engine.Engine:LargeFontName:0=/Engine/EngineFonts/Roboto.Roboto
+Mac.Engine:/Script/Engine.Engine:SubtitleFontName:0=/Engine/EngineFonts/Roboto.Roboto
+Mac.Engine:/Script/Engine.Engine:WireframeMaterialName:0=/Engine/EngineDebugMaterials/WireframeMaterial.WireframeMaterial
 Mac.Engine:/Script/Engine.Engine:DefaultMaterialName:0=/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
 Mac.Engine:/Script/Engine.Engine:DefaultLightFunctionMaterialName:0=/Engine/EngineMaterials/DefaultLightFunctionMaterial.DefaultLightFunctionMaterial
+Mac.Engine:/Script/Engine.Engine:DefaultTextureName:0=/Engine/EngineResources/DefaultTexture.DefaultTexture
+Mac.Engine:/Script/Engine.Engine:DefaultDiffuseTextureName:0=/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse
+Mac.Engine:/Script/Engine.Engine:DefaultBSPVertexTextureName:0=/Engine/EditorResources/BSPVertex.BSPVertex
+Mac.Engine:/Script/Engine.Engine:HighFrequencyNoiseTextureName:0=/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq
+Mac.Engine:/Script/Engine.Engine:DefaultBokehTextureName:0=/Engine/EngineMaterials/DefaultBokeh.DefaultBokeh
+Mac.Engine:/Script/Engine.Engine:DefaultBloomKernelTextureName:0=/Engine/EngineMaterials/DefaultBloomKernel.DefaultBloomKernel
+Mac.Engine:/Script/Engine.Engine:GeomMaterialName:0=/Engine/EngineDebugMaterials/GeomMaterial.GeomMaterial
+Mac.Engine:/Script/Engine.Engine:DebugMeshMaterialName:0=/Engine/EngineDebugMaterials/DebugMeshMaterial.DebugMeshMaterial
+Mac.Engine:/Script/Engine.Engine:PreIntegratedSkinBRDFTextureName:0=/Engine/EngineMaterials/PreintegratedSkinBRDF.PreintegratedSkinBRDF
+Mac.Engine:/Script/Engine.Engine:MiniFontTextureName:0=/Engine/EngineMaterials/MiniFont.MiniFont
+Mac.Engine:/Script/Engine.Engine:WeightMapPlaceholderTextureName:0=/Engine/EngineMaterials/WeightMapPlaceholderTexture.WeightMapPlaceholderTexture
+Mac.Engine:/Script/Engine.Engine:LightMapDensityTextureName:0=/Engine/EngineMaterials/DefaultWhiteGrid.DefaultWhiteGrid
+Mac.Engine:/Script/Engine.Engine:LevelColorationLitMaterialName:0=/Engine/EngineDebugMaterials/LevelColorationLitMaterial.LevelColorationLitMaterial
+Mac.Engine:/Script/Engine.Engine:LevelColorationUnlitMaterialName:0=/Engine/EngineDebugMaterials/LevelColorationUnlitMaterial.LevelColorationUnlitMaterial
+Mac.Engine:/Script/Engine.Engine:LightingTexelDensityName:0=/Engine/EngineDebugMaterials/MAT_LevelColorationLitLightmapUV.MAT_LevelColorationLitLightmapUV
+Mac.Engine:/Script/Engine.Engine:ShadedLevelColorationUnlitMaterialName:0=/Engine/EngineDebugMaterials/ShadedLevelColorationUnlitMateri.ShadedLevelColorationUnlitMateri
+Mac.Engine:/Script/Engine.Engine:ShadedLevelColorationLitMaterialName:0=/Engine/EngineDebugMaterials/ShadedLevelColorationLitMaterial.ShadedLevelColorationLitMaterial
+Mac.Engine:/Script/Engine.Engine:RemoveSurfaceMaterialName:0=/Engine/EngineMaterials/RemoveSurfaceMaterial.RemoveSurfaceMaterial
+Mac.Engine:/Script/Engine.Engine:VertexColorMaterialName:0=/Engine/EngineDebugMaterials/VertexColorMaterial.VertexColorMaterial
+Mac.Engine:/Script/Engine.Engine:VertexColorViewModeMaterialName_ColorOnly:0=/Engine/EngineDebugMaterials/VertexColorViewMode_ColorOnly.VertexColorViewMode_ColorOnly
+Mac.Engine:/Script/Engine.Engine:VertexColorViewModeMaterialName_AlphaAsColor:0=/Engine/EngineDebugMaterials/VertexColorViewMode_AlphaAsColor.VertexColorViewMode_AlphaAsColor
+Mac.Engine:/Script/Engine.Engine:VertexColorViewModeMaterialName_RedOnly:0=/Engine/EngineDebugMaterials/VertexColorViewMode_RedOnly.VertexColorViewMode_RedOnly
+Mac.Engine:/Script/Engine.Engine:VertexColorViewModeMaterialName_GreenOnly:0=/Engine/EngineDebugMaterials/VertexColorViewMode_GreenOnly.VertexColorViewMode_GreenOnly
+Mac.Engine:/Script/Engine.Engine:VertexColorViewModeMaterialName_BlueOnly:0=/Engine/EngineDebugMaterials/VertexColorViewMode_BlueOnly.VertexColorViewMode_BlueOnly
+Mac.Engine:/Script/Engine.Engine:BoneWeightMaterialName:0=/Engine/EngineDebugMaterials/BoneWeightMaterial.BoneWeightMaterial
+Mac.Engine:/Script/Engine.Engine:ClothPaintMaterialName:0=/Engine/EngineDebugMaterials/ClothMaterial.ClothMaterial
+Mac.Engine:/Script/Engine.Engine:ClothPaintMaterialWireframeName:0=/Engine/EngineDebugMaterials/ClothMaterial_WF.ClothMaterial_WF
+Mac.Engine:/Script/Engine.Engine:DebugEditorMaterialName:0=/Engine/EngineDebugMaterials/DebugEditorMaterial.DebugEditorMaterial
+Mac.Engine:/Script/Engine.Engine:InvalidLightmapSettingsMaterialName:0=/Engine/EngineMaterials/M_InvalidLightmapSettings.M_InvalidLightmapSettings
+Mac.Engine:/Script/Engine.Engine:PreviewShadowsIndicatorMaterialName:0=/Engine/EditorMaterials/PreviewShadowIndicatorMaterial.PreviewShadowIndicatorMaterial
+Mac.Engine:/Script/Engine.Engine:EditorBrushMaterialName:0=/Engine/EngineMaterials/EditorBrushMaterial.EditorBrushMaterial
+Mac.Engine:/Script/Engine.Engine:DefaultPhysMaterialName:0=/Engine/EngineMaterials/DefaultPhysicalMaterial.DefaultPhysicalMaterial
 Mac.Engine:/Script/Engine.Engine:DefaultDeferredDecalMaterialName:0=/Engine/EngineMaterials/DefaultDeferredDecalMaterial.DefaultDeferredDecalMaterial
 Mac.Engine:/Script/Engine.Engine:DefaultPostProcessMaterialName:0=/Engine/EngineMaterials/DefaultPostProcessMaterial.DefaultPostProcessMaterial
 Mac.Engine:/Script/Engine.Engine:TextureStreamingBoundsMaterialName:0=/Engine/EditorMaterials/Utilities/TextureStreamingBounds_MATInst.TextureStreamingBounds_MATInst
+Mac.Engine:/Script/Engine.Engine:ArrowMaterialName:0=/Engine/EditorMaterials/GizmoMaterial.GizmoMaterial
 Mac.Engine:/Script/Engine.Engine:bAllowHostMigration:0=false
 Mac.Engine:/Script/Engine.Engine:HostMigrationTimeout:0=15
+Mac.Engine:/Script/Engine.Engine:ParticleEventManagerClassPath:0=/Script/Engine.ParticleEventManager
+Mac.Engine:/Script/Engine.Engine:LightingOnlyBrightness:0=(R=0.3,G=0.3,B=0.3,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:0=(R=0.0,G=1.0,B=0.127,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:1=(R=0.0,G=1.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:2=(R=0.046,G=0.52,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:3=(R=0.215,G=0.215,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:4=(R=0.52,G=0.046,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:5=(R=0.7,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:6=(R=1.0,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:7=(R=1.0,G=0.0,B=0.5,A=1.0)
+Mac.Engine:/Script/Engine.Engine:ShaderComplexityColors:8=(R=1.0,G=0.9,B=0.9,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:0=(R=0.0,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:1=(R=0.0,G=0.0,B=0.4,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:2=(R=0.0,G=0.3,B=1.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:3=(R=0.0,G=0.7,B=0.4,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:4=(R=0.0,G=1.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:5=(R=0.8,G=0.8,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:6=(R=1.0,G=0.3,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:7=(R=0.7,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:8=(R=0.5,G=0.0,B=0.5,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:9=(R=0.7,G=0.3,B=0.7,A=1.0)
+Mac.Engine:/Script/Engine.Engine:QuadComplexityColors:10=(R=1.0,G=0.9,B=0.9,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:0=(R=0.0,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:1=(R=0.0,G=0.0,B=0.4,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:2=(R=0.0,G=0.3,B=1.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:3=(R=0.0,G=0.7,B=0.4,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:4=(R=0.0,G=1.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:5=(R=0.8,G=0.8,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:6=(R=1.0,G=0.3,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:7=(R=0.7,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:8=(R=0.5,G=0.0,B=0.5,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:9=(R=0.7,G=0.3,B=0.7,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightComplexityColors:10=(R=1.0,G=0.9,B=0.9,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:0=(R=0.0,G=1.0,B=0.127,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:1=(R=0.0,G=1.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:2=(R=0.046,G=0.52,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:3=(R=0.215,G=0.215,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:4=(R=0.52,G=0.046,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:5=(R=0.7,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:6=(R=1.0,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:7=(R=1.0,G=0.0,B=0.5,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StationaryLightOverlapColors:8=(R=1.0,G=0.9,B=0.9,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:0=(R=1.0,G=1.0,B=1.0,A=1.0) ; white (LOD 0)
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:1=(R=1.0,G=0.0,B=0.0,A=1.0) ; red (LOD 1)
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:2=(R=0.0,G=1.0,B=0.0,A=1.0) ; green (etc...)
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:3=(R=0.0,G=0.0,B=1.0,A=1.0) ; blue
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:4=(R=1.0,G=1.0,B=0.0,A=1.0) ; yellow
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:5=(R=1.0,G=0.0,B=1.0,A=1.0) ; fuchsia (bright purple)
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:6=(R=0.0,G=1.0,B=1.0,A=1.0) ; cyan
+Mac.Engine:/Script/Engine.Engine:LODColorationColors:7=(R=0.5,G=0.0,B=0.5,A=1.0) ; purple
+Mac.Engine:/Script/Engine.Engine:StreamingAccuracyColors:0=(R=1.0,G=0.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StreamingAccuracyColors:1=(R=0.8,G=0.5,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StreamingAccuracyColors:2=(R=0.7,G=0.7,B=0.7,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StreamingAccuracyColors:3=(R=0.0,G=0.8,B=0.5,A=1.0)
+Mac.Engine:/Script/Engine.Engine:StreamingAccuracyColors:4=(R=0.0,G=1.0,B=0.0,A=1.0)
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:0=(R=1.0,G=1.0,B=1.0,A=1.0) ; white (not part of HLOD)
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:1=(R=0.0,G=1.0,B=0.0,A=1.0) ; green (part of HLOD but being drawn outside of it)
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:2=(R=0.0,G=0.0,B=1.0,A=1.0) ; blue (HLOD level 0)
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:3=(R=1.0,G=1.0,B=0.0,A=1.0) ; yellow (HLOD level 1, etc...)
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:4=(R=1.0,G=0.0,B=1.0,A=1.0) ; purple
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:5=(R=0.0,G=1.0,B=1.0,A=1.0) ; cyan
+Mac.Engine:/Script/Engine.Engine:HLODColorationColors:6=(R=0.5,G=0.5,B=0.5,A=1.0) ; grey
+Mac.Engine:/Script/Engine.Engine:MaxPixelShaderAdditiveComplexityCount:0=2000
+Mac.Engine:/Script/Engine.Engine:MaxES2PixelShaderAdditiveComplexityCount:0=600
 Mac.Engine:/Script/Engine.Engine:bSubtitlesEnabled:0=True
 Mac.Engine:/Script/Engine.Engine:bSubtitlesForcedOff:0=false
 Mac.Engine:/Script/Engine.Engine:DefaultSoundName:0=/Engine/EngineSounds/WhiteNoise.WhiteNoise
@@ -183,10 +298,22 @@ Mac.Engine:/Script/Engine.Engine:CameraRotationThreshold:0=45.0
 Mac.Engine:/Script/Engine.Engine:CameraTranslationThreshold:0=10000
 Mac.Engine:/Script/Engine.Engine:PrimitiveProbablyVisibleTime:0=8.0
 Mac.Engine:/Script/Engine.Engine:MaxOcclusionPixelsFraction:0=0.1
+Mac.Engine:/Script/Engine.Engine:MinLightMapDensity:0=0.0
+Mac.Engine:/Script/Engine.Engine:IdealLightMapDensity:0=0.2
+Mac.Engine:/Script/Engine.Engine:MaxLightMapDensity:0=0.8
+Mac.Engine:/Script/Engine.Engine:RenderLightMapDensityGrayscaleScale:0=1.0
+Mac.Engine:/Script/Engine.Engine:RenderLightMapDensityColorScale:0=1.0
+Mac.Engine:/Script/Engine.Engine:bRenderLightMapDensityGrayscale:0=false
+Mac.Engine:/Script/Engine.Engine:LightMapDensityVertexMappedColor:0=(R=0.65,G=0.65,B=0.25,A=1.0)
+Mac.Engine:/Script/Engine.Engine:LightMapDensitySelectedColor:0=(R=1.0,G=0.2,B=1.0,A=1.0)
 Mac.Engine:/Script/Engine.Engine:bDisablePhysXHardwareSupport:0=True
 Mac.Engine:/Script/Engine.Engine:bPauseOnLossOfFocus:0=false
 Mac.Engine:/Script/Engine.Engine:MaxParticleResize:0=0
 Mac.Engine:/Script/Engine.Engine:MaxParticleResizeWarn:0=0
+Mac.Engine:/Script/Engine.Engine:NetClientTicksPerSecond:0=200
+Mac.Engine:/Script/Engine.Engine:StatColorMappings:0=(StatName="AverageFPS",ColorMap=((In=15.0,Out=(R=255)),(In=30,Out=(R=255,G=255)),(In=45.0,Out=(G=255))))
+Mac.Engine:/Script/Engine.Engine:StatColorMappings:1=(StatName="Frametime",ColorMap=((In=1.0,Out=(G=255)),(In=25.0,Out=(G=255)),(In=29.0,Out=(R=255,G=255)),(In=33.0,Out=(R=255))))
+Mac.Engine:/Script/Engine.Engine:StatColorMappings:2=(StatName="Streaming fudge factor",ColorMap=((In=0.0,Out=(G=255)),(In=1.0,Out=(G=255)),(In=2.5,Out=(R=255,G=255)),(In=5.0,Out=(R=255)),(In=10.0,Out=(R=255))))
 Mac.Engine:/Script/Engine.Engine:DisplayGamma:0=2.2
 Mac.Engine:/Script/Engine.Engine:MinDesiredFrameRate:0=35.000000
 Mac.Engine:/Script/Engine.Engine:InitialButtonRepeatDelay:0=0.2
@@ -199,6 +326,8 @@ Mac.Engine:/Script/Engine.Engine:bSmoothFrameRate:0=true
 Mac.Engine:/Script/Engine.Engine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypesInclusive",Value=22),UpperBound=(Type="ERangeBoundTypesExclusive",Value=62))
 Mac.Engine:/Script/Engine.Engine:bCheckForMultiplePawnsSpawnedInAFrame:0=false
 Mac.Engine:/Script/Engine.Engine:NumPawnsAllowedToBeSpawnedInAFrame:0=2
+Mac.Engine:/Script/Engine.Engine:DefaultSelectedMaterialColor:0=(R=0.84,G=0.92,B=0.02,A=1.0)
+Mac.Engine:/Script/Engine.Engine:bEnableOnScreenDebugMessages:0=true
 Mac.Engine:/Script/Engine.Engine:DurationOfErrorsAndWarningsOnHUD:0=0
 Mac.Engine:/Script/Engine.Engine:NearClipPlane:0=10.0
 Mac.Engine:/Script/Engine.Engine:bUseStreamingPause:0=false
@@ -1253,6 +1382,531 @@ Mac.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardwareC
 Mac.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Mac.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Scalable
 Mac.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Scalable
+Mac.Lightmass:DevOptions.StaticLighting:bAllowMultiThreadedStaticLighting:0=True
+Mac.Lightmass:DevOptions.StaticLighting:ViewSingleBounceNumber:0=-1
+Mac.Lightmass:DevOptions.StaticLighting:bUseBilinearFilterLightmaps:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bCompressLightmaps:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bUseConservativeTexelRasterization:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bAccountForTexelSize:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bUseMaxWeight:0=True
+Mac.Lightmass:DevOptions.StaticLighting:MaxTriangleLightingSamples:0=8
+Mac.Lightmass:DevOptions.StaticLighting:MaxTriangleIrradiancePhotonCacheSamples:0=4
+Mac.Lightmass:DevOptions.StaticLighting:bAllow64bitProcess:0=True
+Mac.Lightmass:DevOptions.StaticLighting:DefaultStaticMeshLightingRes:0=32
+Mac.Lightmass:DevOptions.StaticLighting:bAllowCropping:0=False
+Mac.Lightmass:DevOptions.StaticLighting:bGarbageCollectAfterExport:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bRebuildDirtyGeometryForLighting:0=True
+Mac.Lightmass:DevOptions.StaticLighting:bUseEmbree:0=true
+Mac.Lightmass:DevOptions.StaticLighting:bVerifyEmbree:0=false
+Mac.Lightmass:DevOptions.StaticLighting:bUseEmbreePacketTracing:0=false
+Mac.Lightmass:DevOptions.StaticLighting:bUseFilteredCubemapForSkylight:0=true
+Mac.Lightmass:DevOptions.StaticLighting:MappingSurfaceCacheDownsampleFactor:0=2
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:StaticLightingLevelScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityRayOffsetDistance:0=.1
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetDistance:0=3
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetSampleRadiusScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityTangentOffsetSampleRadiusScale:0=.8
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:SmallestTexelRadius:0=.1
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:LightGridSize:0=100
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:AutomaticImportanceVolumeExpandBy:0=500
+Mac.Lightmass:DevOptions.StaticLightingSceneConstants:MinimumImportanceVolumeExtentWithoutWarning:0=10000.0
+Mac.Lightmass:DevOptions.StaticLightingMaterial:bUseDebugMaterial:0=False
+Mac.Lightmass:DevOptions.StaticLightingMaterial:ShowMaterialAttribute:0=None
+Mac.Lightmass:DevOptions.StaticLightingMaterial:EmissiveSampleSize:0=128
+Mac.Lightmass:DevOptions.StaticLightingMaterial:DiffuseSampleSize:0=128
+Mac.Lightmass:DevOptions.StaticLightingMaterial:SpecularSampleSize:0=128
+Mac.Lightmass:DevOptions.StaticLightingMaterial:TransmissionSampleSize:0=256
+Mac.Lightmass:DevOptions.StaticLightingMaterial:NormalSampleSize:0=256
+Mac.Lightmass:DevOptions.StaticLightingMaterial:TerrainSampleScalar:0=4
+Mac.Lightmass:DevOptions.StaticLightingMaterial:DebugDiffuse:0=(R=0.500000,G=0.500000,B=0.500000)
+Mac.Lightmass:DevOptions.StaticLightingMaterial:EnvironmentColor:0=(R=0.00000,G=0.00000,B=0.00000)
+Mac.Lightmass:DevOptions.MeshAreaLights:bVisualizeMeshAreaLightPrimitives:0=False
+Mac.Lightmass:DevOptions.MeshAreaLights:EmissiveIntensityThreshold:0=.01
+Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGridSize:0=100
+Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyNormalAngleThreshold:0=25
+Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyCornerDistanceThreshold:0=.5
+Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyMeshBoundingRadiusFractionThreshold:0=.1
+Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGeneratedDynamicLightSurfaceOffset:0=30
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightSamples:0=False
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightInterpolation:0=False
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumHemisphereSamplesScale:0=2
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceLightSampleSpacing:0=300
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:FirstSurfaceSampleLayerHeight:0=50
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceSampleLayerHeightSpacing:0=250
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumSurfaceSampleLayers:0=2
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:DetailVolumeSampleSpacing:0=300
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:VolumeLightSampleSpacing:0=3000
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxVolumeSamples:0=250000
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bUseMaxSurfaceSampleNum:0=True
+Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxSurfaceLightSamples:0=500000
+Mac.Lightmass:DevOptions.VolumetricLightmaps:BrickSize:0=4
+Mac.Lightmass:DevOptions.VolumetricLightmaps:MaxRefinementLevels:0=3
+Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForSurfaceGeometry:0=.1
+Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForVolumeGeometry:0=.25
+Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForLights:0=.1
+Mac.Lightmass:DevOptions.VolumetricLightmaps:TargetNumVolumetricLightmapTasks:0=800
+Mac.Lightmass:DevOptions.VolumetricLightmaps:MinBrickError:0=.01
+Mac.Lightmass:DevOptions.VolumetricLightmaps:SurfaceLightmapMinTexelsPerVoxelAxis:0=1.0
+Mac.Lightmass:DevOptions.VolumetricLightmaps:bCullBricksBelowLandscape:0=true
+Mac.Lightmass:DevOptions.VolumetricLightmaps:LightBrightnessSubdivideThreshold:0=.3
+Mac.Lightmass:DevOptions.PrecomputedVisibility:bVisualizePrecomputedVisibility:0=False
+Mac.Lightmass:DevOptions.PrecomputedVisibility:bCompressVisibilityData:0=True
+Mac.Lightmass:DevOptions.PrecomputedVisibility:bPlaceCellsOnOpaqueOnly:0=True
+Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellDistributionBuckets:0=800
+Mac.Lightmass:DevOptions.PrecomputedVisibility:CellRenderingBucketSize:0=5
+Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellRenderingBuckets:0=5
+Mac.Lightmass:DevOptions.PrecomputedVisibility:PlayAreaHeight:0=220
+Mac.Lightmass:DevOptions.PrecomputedVisibility:MeshBoundsScale:0=1.2
+Mac.Lightmass:DevOptions.PrecomputedVisibility:VisibilitySpreadingIterations:0=1
+Mac.Lightmass:DevOptions.PrecomputedVisibility:MinMeshSamples:0=14
+Mac.Lightmass:DevOptions.PrecomputedVisibility:MaxMeshSamples:0=40
+Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellSamples:0=24
+Mac.Lightmass:DevOptions.PrecomputedVisibility:NumImportanceSamples:0=40
+Mac.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:MeshBoundsScale:0=1
+Mac.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:VisibilitySpreadingIterations:0=1
+Mac.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:MeshBoundsScale:0=1
+Mac.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:VisibilitySpreadingIterations:0=0
+Mac.Lightmass:DevOptions.VolumeDistanceField:VoxelSize:0=75
+Mac.Lightmass:DevOptions.VolumeDistanceField:VolumeMaxDistance:0=900
+Mac.Lightmass:DevOptions.VolumeDistanceField:NumVoxelDistanceSamples:0=800
+Mac.Lightmass:DevOptions.VolumeDistanceField:MaxVoxels:0=3992160
+Mac.Lightmass:DevOptions.StaticShadows:bUseZeroAreaLightmapSpaceFilteredLights:0=False
+Mac.Lightmass:DevOptions.StaticShadows:NumShadowRays:0=8
+Mac.Lightmass:DevOptions.StaticShadows:NumPenumbraShadowRays:0=8
+Mac.Lightmass:DevOptions.StaticShadows:NumBounceShadowRays:0=1
+Mac.Lightmass:DevOptions.StaticShadows:bFilterShadowFactor:0=True
+Mac.Lightmass:DevOptions.StaticShadows:ShadowFactorGradientTolerance:0=0.5
+Mac.Lightmass:DevOptions.StaticShadows:bAllowSignedDistanceFieldShadows:0=True
+Mac.Lightmass:DevOptions.StaticShadows:MaxTransitionDistanceWorldSpace:0=50
+Mac.Lightmass:DevOptions.StaticShadows:ApproximateHighResTexelsPerMaxTransitionDistance:0=50
+Mac.Lightmass:DevOptions.StaticShadows:MinDistanceFieldUpsampleFactor:0=3
+Mac.Lightmass:DevOptions.StaticShadows:MinUnoccludedFraction:0=.0005
+Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceX:0=100
+Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceY:0=100
+Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapSuperSampleFactor:0=2
+Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapMaxSamples:0=4194304
+Mac.Lightmass:DevOptions.ImportanceTracing:bUseStratifiedSampling:0=True
+Mac.Lightmass:DevOptions.ImportanceTracing:NumHemisphereSamples:0=16
+Mac.Lightmass:DevOptions.ImportanceTracing:MaxHemisphereRayAngle:0=89
+Mac.Lightmass:DevOptions.ImportanceTracing:NumAdaptiveRefinementLevels:0=2
+Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveBrightnessThreshold:0=1
+Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveFirstBouncePhotonConeAngle:0=4
+Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveSkyVarianceThreshold:0=.5
+Mac.Lightmass:DevOptions.ImportanceTracing:bUseRadiositySolverForSkylightMultibounce:0=True
+Mac.Lightmass:DevOptions.ImportanceTracing:bCacheFinalGatherHitPointsForRadiosity:0=False
+Mac.Lightmass:DevOptions.ImportanceTracing:bUseRadiositySolverForLightMultibounce:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonMapping:0=True
+Mac.Lightmass:DevOptions.PhotonMapping:bUseFinalGathering:0=True
+Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonDirectLightingInFinalGather:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bVisualizeCachedApproximateDirectLighting:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bUseIrradiancePhotons:0=True
+Mac.Lightmass:DevOptions.PhotonMapping:bCacheIrradiancePhotonsOnSurfaces:0=True
+Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonPaths:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonGathers:0=True
+Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonImportanceSamples:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bVisualizeIrradiancePhotonCalculation:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:bEmitPhotonsOutsideImportanceVolume:0=False
+Mac.Lightmass:DevOptions.PhotonMapping:ConeFilterConstant:0=1
+Mac.Lightmass:DevOptions.PhotonMapping:NumIrradianceCalculationPhotons:0=400
+Mac.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleFraction:0=.6
+Mac.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleConeAngle:0=10
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitDiskRadius:0=200
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitConeAngle:0=30
+Mac.Lightmass:DevOptions.PhotonMapping:MaxImportancePhotonSearchDistance:0=2000
+Mac.Lightmass:DevOptions.PhotonMapping:MinImportancePhotonSearchDistance:0=20
+Mac.Lightmass:DevOptions.PhotonMapping:NumImportanceSearchPhotons:0=10
+Mac.Lightmass:DevOptions.PhotonMapping:OutsideImportanceVolumeDensityScale:0=.0005
+Mac.Lightmass:DevOptions.PhotonMapping:DirectPhotonDensity:0=350
+Mac.Lightmass:DevOptions.PhotonMapping:DirectIrradiancePhotonDensity:0=350
+Mac.Lightmass:DevOptions.PhotonMapping:DirectPhotonSearchDistance:0=200
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonPathDensity:0=5
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonDensity:0=600
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectIrradiancePhotonDensity:0=300
+Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonSearchDistance:0=200
+Mac.Lightmass:DevOptions.PhotonMapping:PhotonSearchAngleThreshold:0=.5
+Mac.Lightmass:DevOptions.PhotonMapping:IrradiancePhotonSearchConeAngle:0=10
+Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonSegmentsForVolumeLighting:0=true
+Mac.Lightmass:DevOptions.PhotonMapping:PhotonSegmentMaxLength:0=1000
+Mac.Lightmass:DevOptions.PhotonMapping:GeneratePhotonSegmentChance:0=.01
+Mac.Lightmass:DevOptions.IrradianceCache:bAllowIrradianceCaching:0=True
+Mac.Lightmass:DevOptions.IrradianceCache:bUseIrradianceGradients:0=False
+Mac.Lightmass:DevOptions.IrradianceCache:bShowGradientsOnly:0=False
+Mac.Lightmass:DevOptions.IrradianceCache:bVisualizeIrradianceSamples:0=True
+Mac.Lightmass:DevOptions.IrradianceCache:RecordRadiusScale:0=.8
+Mac.Lightmass:DevOptions.IrradianceCache:InterpolationMaxAngle:0=20
+Mac.Lightmass:DevOptions.IrradianceCache:PointBehindRecordMaxAngle:0=10
+Mac.Lightmass:DevOptions.IrradianceCache:DistanceSmoothFactor:0=4
+Mac.Lightmass:DevOptions.IrradianceCache:AngleSmoothFactor:0=4
+Mac.Lightmass:DevOptions.IrradianceCache:SkyOcclusionSmoothnessReduction:0=.5
+Mac.Lightmass:DevOptions.IrradianceCache:MaxRecordRadius:0=1024
+Mac.Lightmass:DevOptions.IrradianceCache:CacheTaskSize:0=64
+Mac.Lightmass:DevOptions.IrradianceCache:InterpolateTaskSize:0=64
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumShadowRaysScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumPenumbraShadowRaysScale:0=4
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=3
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:MinDistanceFieldUpsampleFactor:0=3
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumHemisphereSamplesScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumImportanceSearchPhotonsScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumDirectPhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:DirectPhotonSearchDistanceScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonPathsScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectIrradiancePhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:RecordRadiusScaleScale:0=.75
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:InterpolationMaxAngleScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:IrradianceCacheSmoothFactor:0=.75
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumAdaptiveRefinementLevels:0=3
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveBrightnessThresholdScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveSkyVarianceThresholdScale:0=1
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumShadowRaysScale:0=4
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumPenumbraShadowRaysScale:0=8
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:MinDistanceFieldUpsampleFactor:0=5
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumHemisphereSamplesScale:0=4
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumImportanceSearchPhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumDirectPhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:DirectPhotonSearchDistanceScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonPathsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonsScale:0=4
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectIrradiancePhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:RecordRadiusScaleScale:0=.75
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:InterpolationMaxAngleScale:0=.75
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:IrradianceCacheSmoothFactor:0=.75
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumAdaptiveRefinementLevels:0=3
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveBrightnessThresholdScale:0=.25
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveSkyVarianceThresholdScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumShadowRaysScale:0=8
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumPenumbraShadowRaysScale:0=32
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:MinDistanceFieldUpsampleFactor:0=5
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumHemisphereSamplesScale:0=8
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumImportanceSearchPhotonsScale:0=3
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumDirectPhotonsScale:0=4
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:DirectPhotonSearchDistanceScale:0=.5
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonPathsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonsScale:0=8
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectIrradiancePhotonsScale:0=2
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:RecordRadiusScaleScale:0=.5625
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:InterpolationMaxAngleScale:0=.75
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:IrradianceCacheSmoothFactor:0=.75
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumAdaptiveRefinementLevels:0=3
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveBrightnessThresholdScale:0=.25
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2.5
+Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveSkyVarianceThresholdScale:0=.5
+HTML5.Engine:/Script/Engine.RendererSettings:r.MobileHDR:0=True
+HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
+IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+IOS.Engine:AssetRegistry:bSerializePackageData:0=false
+Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
+Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
+Android.Engine:AssetRegistry:bSerializeDependencies:0=false
+Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
+Android.Engine:AssetRegistry:bSerializePackageData:0=false
+Mac.Game:StartupActions:bAddPacks:0=False
+Mac.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
+Mac.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
+Mac.Game:DefaultPlayer:Name:0=Player
+Mac.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
+Mac.Game:/Script/Engine.GameNetworkManager:MaxDynamicBandwidth:0=7000
+Mac.Game:/Script/Engine.GameNetworkManager:MinDynamicBandwidth:0=4000
+Mac.Game:/Script/Engine.GameNetworkManager:MoveRepSize:0=42.0f
+Mac.Game:/Script/Engine.GameNetworkManager:MAXPOSITIONERRORSQUARED:0=3.0f
+Mac.Game:/Script/Engine.GameNetworkManager:MAXNEARZEROVELOCITYSQUARED:0=9.0f
+Mac.Game:/Script/Engine.GameNetworkManager:CLIENTADJUSTUPDATECOST:0=180.0f
+Mac.Game:/Script/Engine.GameNetworkManager:MAXCLIENTUPDATEINTERVAL:0=0.25f
+Mac.Game:/Script/Engine.GameNetworkManager:MaxMoveDeltaTime:0=0.125f
+Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTime:0=0.0166
+Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTimeThrottled:0=0.0222
+Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleAtNetSpeed:0=10000
+Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleOverPlayerCount:0=10
+Mac.Game:/Script/Engine.GameNetworkManager:ClientAuthorativePosition:0=false
+Mac.Game:/Script/Engine.GameNetworkManager:ClientErrorUpdateRateLimit:0=0.0f
+Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyDetection:0=false
+Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyResolution:0=false
+Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMaxTimeMargin:0=0.25f
+Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMinTimeMargin:0=-0.25f
+Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyResolutionRate:0=1.0f
+Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyDriftAllowance:0=0.0f
+Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyForceCorrectionsDuringResolution:0=false
+Mac.Game:/Script/Engine.GameNetworkManager:bUseDistanceBasedRelevancy:0=true
+Mac.Game:/Script/Party.Party:DefaultMaxPartySize:0=5
+Mac.Game:/Script/Lobby.LobbyBeaconState:WaitForPlayersTimeRemaining:0=20.0
+Mac.Game:/Script/Engine.GameSession:MaxPlayers:0=16
+Mac.Game:/Script/Engine.GameSession:MaxSpectators:0=2
+Mac.Game:/Script/Engine.GameSession:MaxSplitscreensPerConnection:0=4
+Mac.Game:/Script/Engine.GameSession:bRequiresPushToTalk:0=true
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyName:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyDistinguishedName:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out your copyright notice in the Description page of Project Settings.
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=UE4Game
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
+Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=461CC78B414BBB84E6CBA9860E0C0621
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
+Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
+Mac.Game:/Script/Engine.HUD:DebugDisplay:0=AI
+Mac.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
+Mac.Game:/Script/Engine.PlayerController:InputPitchScale:0=-1.75
+Mac.Game:/Script/Engine.PlayerController:InputRollScale:0=1.0
+Mac.Game:/Script/Engine.PlayerController:ForceFeedbackScale:0=1.0
+Mac.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
+Mac.Game:/Script/Engine.WorldSettings:ChanceOfPhysicsChunkOverride:0=1.0
+Mac.Game:/Script/Engine.WorldSettings:bEnableChanceOfPhysicsChunkOverride:0=false
+Mac.Game:/Script/Engine.WorldSettings:DefaultAmbientZoneSettings:0=(bIsWorldSettings=true)
+Mac.Game:/Script/Engine.WorldSettings:EnabledPlugins:0=ExampleDeviceProfileSelector
+Mac.Game:/Script/Engine.WorldSettings:MinUndilatedFrameTime:0=0.0005		; 2000 fps
+Mac.Game:/Script/Engine.WorldSettings:MaxUndilatedFrameTime:0=0.4			; 2.5 fps
+Mac.Game:/Script/Engine.WorldSettings:MinGlobalTimeDilation:0=0.0001
+Mac.Game:/Script/Engine.WorldSettings:MaxGlobalTimeDilation:0=20.0
+Mac.Game:/Script/AIModule.AIPerceptionComponent:HearingRange:0=768
+Mac.Game:/Script/AIModule.AIPerceptionComponent:SightRadius:0=3000
+Mac.Game:/Script/AIModule.AIPerceptionComponent:LoseSightRadius:0=3500
+Mac.Game:/Script/AIModule.AIPerceptionComponent:LoSHearingRange:0=1500
+Mac.Game:/Script/AIModule.AIPerceptionComponent:PeripheralVisionAngle:0=90
+Mac.Game:/Script/AIModule.AISense_Hearing:SpeedOfSoundSq:0=0
+Mac.Game:/Script/AIModule.AISenseConfig_Hearing:Implementation:0=Class'/Script/AIModule.AISense_Hearing'
+Mac.Game:/Script/AIModule.AISenseConfig_Hearing:HearingRange:0=768
+Mac.Game:/Script/AIModule.AISenseConfig_Hearing:LoSHearingRange:0=1500
+Mac.Game:/Script/AIModule.AISenseConfig_Hearing:DetectionByAffiliation:0=(bDetectEnemies=true)
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:Implementation:0=Class'/Script/AIModule.AISense_Sight'
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:SightRadius:0=3000
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:LoseSightRadius:0=3500
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:PeripheralVisionAngleDegrees:0=90
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:DetectionByAffiliation:0=(bDetectEnemies=true)
+Mac.Game:/Script/AIModule.AISenseConfig_Sight:AutoSuccessRangeFromLastSeenLocation:0=-1.f
+Mac.Game:/Script/AIModule.AISenseConfig_Damage:Implementation:0=Class'/Script/AIModule.AISense_Damage'
+Mac.Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
+Mac.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
+Mac.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
+Mac.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
+Mac.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
+Mac.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
+Mac.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
+Mac.Input:/Script/Engine.InputSettings:bEnableFOVScaling:0=True
+Mac.Input:/Script/Engine.InputSettings:FOVScale:0=0.011110
+Mac.Input:/Script/Engine.InputSettings:DoubleClickTime:0=0.200000
+Mac.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
+Mac.Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:0=False
+Mac.Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:0=True
+Mac.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
+Mac.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=True
+Mac.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:0=(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:1=(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:2=(AxisKeyName="Gamepad_RightX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:3=(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:4=(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:5=(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:6=(AxisKeyName="MouseWheelAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:7=(AxisKeyName="Gamepad_LeftTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:8=(AxisKeyName="Gamepad_RightTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:9=(AxisKeyName="MotionController_Left_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:10=(AxisKeyName="MotionController_Left_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:11=(AxisKeyName="MotionController_Left_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:12=(AxisKeyName="MotionController_Left_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:13=(AxisKeyName="MotionController_Left_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:14=(AxisKeyName="MotionController_Right_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:15=(AxisKeyName="MotionController_Right_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:16=(AxisKeyName="MotionController_Right_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:17=(AxisKeyName="MotionController_Right_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:18=(AxisKeyName="MotionController_Right_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:19=(AxisKeyName="Gamepad_Special_Left_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:AxisConfig:20=(AxisKeyName="Gamepad_Special_Left_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
+Mac.Input:/Script/Engine.InputSettings:bUseMouseForTouch:0=False
+Mac.Input:/Script/Engine.InputSettings:bCaptureMouseOnLaunch:0=True
+Mac.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently_IncludingInitialMouseDown
+Mac.Input:/Script/Engine.InputSettings:bDefaultViewportMouseLock:0=False
+Mac.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockOnCapture
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="moveup",Key=W,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="moveright",Key=D,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="moveup",Key=Up,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="moveright",Key=Right,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="movedown",Key=Down,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="moveleft",Key=Left,Scale=1.000000)
+Mac.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
+Mac.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:1=(Key=F11,Command="MainFrame.ToggleFullscreen",Shift=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:2=(Key=F1,Command="viewmode wireframe", bIgnoreShift=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:3=(Key=F2,Command="viewmode unlit")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:4=(Key=F3,Command="viewmode lit")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:5=(Key=F4,Command="viewmode lit_detaillighting")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:6=(Key=F5,Command="viewmode shadercomplexity")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:7=(Key=F9,Command="shot showui")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:8=(Key=Period,Command="RECOMPILESHADERS CHANGED",Control=True,Shift=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:9=(Key=Comma,Command="PROFILEGPU",Control=True,Shift=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:10=(Key=Tab,Command="FocusNextPIEWindow",Control=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:11=(Key=Tab,Command="FocusLastPIEWindow",Control=True,Shift=True)
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:12=(Key=PageDown,Command="PreviousDebugTarget")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:13=(Key=PageUp,Command="NextDebugTarget")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:14=(Key=Apostrophe,Command="EnableGDT")
+Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:15=(Key=Quote,Command="EnableGDT")
+Mac.Input:/Script/Engine.Console:HistoryBot:0=-1
+Mac.Input:/Script/EngineSettings.ConsoleSettings:MaxScrollbackSize:0=1024
+Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteMapPaths:0=Content/Maps
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:0=(Command="Exit",Desc="Exits the game")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:1=(Command="DebugCreatePlayer 1",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:2=(Command="ToggleDrawEvents",Desc="Toggles annotations for shader debugging with Pix, Razor or similar GPU capture tools")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:3=(Command="Shot",Desc="Make a screenshot")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:4=(Command="RecompileShaders changed",Desc="Recompile shaders that have any changes on their source files")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:5=(Command="RecompileShaders global",Desc="Recompile global shaders that have any changes on their source files")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:6=(Command="RecompileShaders material ",Desc="Recompile shaders for a specific material if it's source files have changed")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:7=(Command="RecompileShaders all",Desc="Recompile all shaders that have any changes on their source files")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:8=(Command="DumpMaterialStats",Desc="Dump material information")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:9=(Command="DumpShaderStats",Desc="Dump shader information")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:10=(Command="DumpShaderPipelineStats",Desc="Dump shader pipeline information")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:11=(Command="StartFPSChart",Desc="after that use StopFPSChart")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:12=(Command="StopFPSChart",Desc="after that look for the output in Saved/Profiling/FPSChartStats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:13=(Command="FreezeAt",Desc="Locks the player view and rendering time.")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:14=(Command="Open",Desc="<MapName> Opens the specified map, doesn't pass previously set options")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:15=(Command="Travel",Desc="<MapName> Travels to the specified map, passes along previously set options")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:16=(Command="ServerTravel",Desc="<MapName> Travels to the specified map and brings clients along, passes along previously set options")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:17=(Command="DisplayAll",Desc="<ClassName> <PropertyName> Display property values for instances of classname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:18=(Command="DisplayAllLocation",Desc="<ClassName> Display location for all instances of classname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:19=(Command="DisplayAllRotation",Desc="<ClassName> Display rotation for all instances of classname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:20=(Command="DisplayClear",Desc="Clears previous DisplayAll entries")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:21=(Command="FlushPersistentDebugLines",Desc="Clears persistent debug line cache")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:22=(Command="GetAll ",Desc="<ClassName> <PropertyName> <Name=ObjectInstanceName> <OUTER=ObjectInstanceName> <SHOWDEFAULTS> <SHOWPENDINGKILLS> <DETAILED> Log property values of all instances of classname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:23=(Command="GetAllState",Desc="<ClassName> Log state names for all instances of classname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:24=(Command="Obj List ",Desc="<Class=ClassName> <Type=MetaClass> <Outer=OuterObject> <Package=InsidePackage> <Inside=InsideObject>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:25=(Command="Obj ListContentRefs",Desc="<Class=ClassName> <ListClass=ClassName>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:26=(Command="Obj Classes",Desc="Shows all classes")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:27=(Command="Obj Refs",Desc="Name=<ObjectName> Class=<OptionalObjectClass> Lists referencers of the specified object")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:28=(Command="EditActor",Desc="<Class=ClassName> or <Name=ObjectName> or TRACE")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:29=(Command="EditDefault",Desc="<Class=ClassName>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:30=(Command="EditObject",Desc="<Class=ClassName> or <Name=ObjectName> or <ObjectName>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:31=(Command="ReloadCfg ",Desc="<Class/ObjectName> Reloads config variables for the specified object/class")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:32=(Command="ReloadLoc ",Desc="<Class/ObjectName> Reloads localized variables for the specified object/class")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:33=(Command="Set ",Desc="<ClassName> <PropertyName> <Value> Sets property to value on objectname")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:34=(Command="SetNoPEC",Desc="<ClassName> <PropertyName> <Value> Sets property to value on objectname without Pre/Post Edit Change notifications")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:35=(Command="Stat FPS",Desc="Shows FPS counter")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:36=(Command="Stat UNIT",Desc="Shows hardware unit framerate")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:37=(Command="Stat UnitGraph",Desc="Draws simple unit time graph")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:38=(Command="Stat NamedEvents",Desc="Stat NamedEvents (Enables named events for external profilers)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:39=(Command="Stat StartFile",Desc="Stat StartFile (starts a stats capture, creating a new file in the Profiling directory; stop with stat StopFile to close the file)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:40=(Command="Stat StopFile",Desc="Stat StopFile (finishes a stats capture started by stat StartFile)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:41=(Command="Stat Hitches",Desc="Stat Hitches (shows an onscreen history of hitches)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:42=(Command="Stat CPULoad",Desc="Stat CPULoad (Shows CPU Utilization)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:43=(Command="Stat DUMPHITCHES",Desc="executes dumpstats on hitches - see log")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:44=(Command="Stat D3D11RHI",Desc="Shows Direct3D 11 stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:45=(Command="Stat LEVELS",Desc="Displays level streaming info")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:46=(Command="Stat GAME",Desc="Displays game performance stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:47=(Command="Stat MEMORY",Desc="Displays memory stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:48=(Command="Stat PHYSICS",Desc="Displays physics performance stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:49=(Command="Stat STREAMING",Desc="Displays basic texture streaming stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:50=(Command="Stat STREAMINGDETAILS",Desc="Displays detailed texture streaming stats")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:51=(Command="Stat GPU",Desc="Displays GPU stats for the frame")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:52=(Command="Stat COLLISION",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:53=(Command="Stat PARTICLES",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:54=(Command="Stat SCRIPT",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:55=(Command="Stat AUDIO",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:56=(Command="Stat ANIM",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:57=(Command="Stat NET",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:58=(Command="Stat LIST",Desc="<Groups/Sets/Group> List groups of stats, saved sets, or specific stats within a specified group")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:59=(Command="Stat splitscreen",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:60=(Command="MemReport",Desc="Outputs memory stats to a profile file. -Full gives more data, -Log outputs to the log")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:61=(Command="ListTextures",Desc="Lists all loaded textures and their current memory footprint")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:62=(Command="ListStreamingTextures",Desc="Lists info all streaming textures")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:63=(Command="InvestigateTexture",Desc="Shows streaming info about the specified texture")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:64=(Command="RestartLevel",Desc="Restarts the level")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:65=(Command="Module List",Desc="Lists all known modules")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:66=(Command="Module Load",Desc="Attempts to load the specified module name")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:67=(Command="Module Unload",Desc="Unloads the specified module name")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:68=(Command="Module Reload",Desc="Reloads the specified module name, unloading it first if needed")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:69=(Command="Module Recompile",Desc="Attempts to recompile a module, first unloading it if needed")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:70=(Command="HotReload",Desc="<UObject DLL Hot Reload> Attempts to recompile a UObject DLL and reload it on the fly")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:71=(Command="ListSounds",Desc="Lists all the loaded sounds and their memory footprint")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:72=(Command="ListWaves",Desc="List the WaveInstances and whether they have a source")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:73=(Command="ListSoundClasses",Desc="Lists a summary of loaded sound collated by class")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:74=(Command="ListAudioComponents",Desc="Dumps a detailed list of all AudioComponent objects")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:75=(Command="ListSoundDurations",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:76=(Command="PlaySoundCue",Desc="Lists a summary of loaded sound collated by class")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:77=(Command="PlaySoundWave",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:78=(Command="SetBaseSoundMix",Desc="<MixName>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:79=(Command="DisableLowPassFilter",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:80=(Command="DisableEQFilter",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:81=(Command="IsolateDryAudio",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:82=(Command="IsolateReverb",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:83=(Command="ResetSoundState",Desc="Resets volumes to default and removes test filters")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:84=(Command="DisableAllScreenMessages",Desc="Disables all on-screen warnings/messages")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:85=(Command="EnableAllScreenMessages",Desc="Enables all on-screen warnings/messages")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:86=(Command="ToggleAllScreenMessages",Desc="Toggles display state of all on-screen warnings/messages")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:87=(Command="ToggleAsyncCompute",Desc="Toggles AsyncCompute for platforms that have it")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:88=(Command="ToggleRenderingThread",Desc="Toggles the rendering thread for platforms that have it")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:89=(Command="CaptureMode",Desc="Toggles display state of all on-screen warnings/messages")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:90=(Command="ShowDebug None",Desc="Toggles ShowDebug w/ current debug type selection")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:91=(Command="ShowDebug Reset",Desc="Turns off ShowDebug, and clears debug type selection")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:92=(Command="ShowDebug NET",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:93=(Command="ShowDebug PHYSICS",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:94=(Command="ShowDebug COLLISION",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:95=(Command="ShowDebug AI",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:96=(Command="ShowDebug CAMERA",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:97=(Command="ShowDebug WEAPON",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:98=(Command="ShowDebug ANIMATION",Desc="Toggles display state of animation debug data")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:99=(Command="ShowDebug BONES",Desc="Toggles display of skeletalmesh bones")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:100=(Command="ShowDebug INPUT",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:101=(Command="ShowDebug FORCEFEEDBACK",Desc="Toggles display of current force feedback values and what is contributing to that calculation")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:102=(Command="ShowDebugToggleSubCategory 3DBONES",Desc="With ShowDebug Bones Toggles bone rendering between single lines and a more complex 3D model per bone")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:103=(Command="ShowDebugToggleSubCategory SYNCGROUPS",Desc="With ShowDebug Animation Toggles display of sync group data")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:104=(Command="ShowDebugToggleSubCategory MONTAGES",Desc="With ShowDebug Animation Toggles display of montage data")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:105=(Command="ShowDebugToggleSubCategory GRAPH",Desc="With ShowDebug Animation Toggles display of animation blueprint graph")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:106=(Command="ShowDebugToggleSubCategory CURVES",Desc="With ShowDebug Animation Toggles display of curve data")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:107=(Command="ShowDebugToggleSubCategory NOTIFIES",Desc="With ShowDebug Animation Toggles display of notify data")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:108=(Command="ShowDebugToggleSubCategory FULLGRAPH",Desc="With ShowDebug Animation Toggles graph display between active nodes only and all nodes")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:109=(Command="ShowDebugToggleSubCategory FULLBLENDSPACEDISPLAY",Desc="With ShowDebug Animation Toggles display of sample blend weights on blendspaces")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:110=(Command="ShowDebugForReticleTargetToggle ",Desc="<DesiredClass> Toggles 'ShowDebug' from showing debug info between reticle target actor (of subclass <DesiredClass>) and camera view target")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:111=(Command="Stat SOUNDMIXES",Desc="Shows active SoundMixes")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:112=(Command="Stat SOUNDWAVES",Desc="Shows active SoundWaves")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:113=(Command="Stat SOUNDCUES",Desc="Shows active SoundCues")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:114=(Command="Stat SOUNDS",Desc="<?> <sort=distance|class|name|waves|default> <-debug> <off> Shows active SoundCues and SoundWaves")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:115=(Command="StartMovieCapture",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:116=(Command="StopMovieCapture",Desc=)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:117=(Command="TraceTag",Desc="Draw traces that use the specified tag")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:118=(Command="TraceTagAll",Desc="Draw all scene queries regardless of the trace tag")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:119=(Command="VisLog",Desc="Launches Log Visualizer tool")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:120=(Command="CycleNavDrawn",Desc="Cycles through navigation data (navmeshes for example) to draw one at a time")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:121=(Command="Log ",Desc="<category> <level> Change verbosity level for a log category")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:122=(Command="Log list",Desc="<search string> Search for log categories")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:123=(Command="Log reset",Desc="Undo any changes to log verbosity")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:124=(Command="RecordAnimation ActorName AnimName",Desc="Record animation for a specified actor to the specified file")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:125=(Command="StopRecordingAnimation All",Desc="Stop all recording animations")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:126=(Command="RecordSequence Filter ActorOrClassName",Desc="Record a level sequence from gameplay. Filter=<All|Actor|Class>")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:127=(Command="StopRecordingSequence",Desc="Stop recording the current sequence. Only one sequence recording can be active at one time.")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:128=(Command="FreezeRendering",Desc="Toggle freezing of most aspects of rendering (such as visibility calculations), useful in conjunction with ToggleDebugCamera to fly around and see how frustum and occlusion culling is working")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:129=(Command="ProfileGPU",Desc="Profile one frame of rendering commands sent to the GPU")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:130=(Command="Automation",Desc="Run an automation command (e.g., Automation RunTests TestName)")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:131=(Command="CsvProfile Start",Desc="Start CSV profiling.")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:132=(Command="CsvProfile Stop",Desc="Stop CSV profiling.")
+Mac.Input:/Script/EngineSettings.ConsoleSettings:BackgroundOpacityPercentage:0=85.000000
+Mac.Input:/Script/EngineSettings.ConsoleSettings:InputColor:0=(R=230,G=230,B=230,A=255)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180,B=180,A=255)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
+Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
 Mac.Editor:/Script/UnrealEd.UnrealEdOptions:UsingXGE:0=False
 Mac.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
 Mac.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
@@ -1593,318 +2247,6 @@ Mac.Editor:/Script/UMGEditor.UMGEditorProjectSettings:DebugResolutions:9=(Width=
 Mac.Editor:/Script/UMGEditor.UMGEditorProjectSettings:DebugResolutions:10=(Width=720,Height=1280,Description="",Color=(R=0.000000,G=0.318547,B=0.806952,A=1.000000))
 Mac.Editor:/Script/UMGEditor.UMGEditorProjectSettings:DebugResolutions:11=(Width=1136,Height=640,Description="",Color=(R=0.000000,G=0.238398,B=0.658375,A=1.000000))
 Mac.Editor:/Script/UMGEditor.UMGEditorProjectSettings:DebugResolutions:12=(Width=640,Height=1136,Description="",Color=(R=0.000000,G=0.238398,B=0.658375,A=1.000000))
-HTML5.Engine:/Script/Engine.RendererSettings:r.MobileHDR:0=True
-HTML5.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-HTML5.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-HTML5.Engine:AssetRegistry:bSerializeDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-HTML5.Engine:AssetRegistry:bSerializePackageData:0=false
-IOS.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-IOS.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-IOS.Engine:AssetRegistry:bSerializeDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-IOS.Engine:AssetRegistry:bSerializePackageData:0=false
-Android.Engine:AssetRegistry:bUseAssetRegistryTagsWhitelistInsteadOfBlacklist:0=false
-Android.Engine:AssetRegistry:bSerializeAssetRegistry:0=true
-Android.Engine:AssetRegistry:bSerializeDependencies:0=false
-Android.Engine:AssetRegistry:bSerializeManageDependencies:0=false
-Android.Engine:AssetRegistry:bSerializePackageData:0=false
-Mac.Game:StartupActions:bAddPacks:0=False
-Mac.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack,PackName="StarterContent")
-Mac.Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
-Mac.Game:DefaultPlayer:Name:0=Player
-Mac.Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
-Mac.Game:/Script/Engine.GameNetworkManager:MaxDynamicBandwidth:0=7000
-Mac.Game:/Script/Engine.GameNetworkManager:MinDynamicBandwidth:0=4000
-Mac.Game:/Script/Engine.GameNetworkManager:MoveRepSize:0=42.0f
-Mac.Game:/Script/Engine.GameNetworkManager:MAXPOSITIONERRORSQUARED:0=3.0f
-Mac.Game:/Script/Engine.GameNetworkManager:MAXNEARZEROVELOCITYSQUARED:0=9.0f
-Mac.Game:/Script/Engine.GameNetworkManager:CLIENTADJUSTUPDATECOST:0=180.0f
-Mac.Game:/Script/Engine.GameNetworkManager:MAXCLIENTUPDATEINTERVAL:0=0.25f
-Mac.Game:/Script/Engine.GameNetworkManager:MaxMoveDeltaTime:0=0.125f
-Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTime:0=0.0166
-Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveDeltaTimeThrottled:0=0.0222
-Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleAtNetSpeed:0=10000
-Mac.Game:/Script/Engine.GameNetworkManager:ClientNetSendMoveThrottleOverPlayerCount:0=10
-Mac.Game:/Script/Engine.GameNetworkManager:ClientAuthorativePosition:0=false
-Mac.Game:/Script/Engine.GameNetworkManager:ClientErrorUpdateRateLimit:0=0.0f
-Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyDetection:0=false
-Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyResolution:0=false
-Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMaxTimeMargin:0=0.25f
-Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyMinTimeMargin:0=-0.25f
-Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyResolutionRate:0=1.0f
-Mac.Game:/Script/Engine.GameNetworkManager:MovementTimeDiscrepancyDriftAllowance:0=0.0f
-Mac.Game:/Script/Engine.GameNetworkManager:bMovementTimeDiscrepancyForceCorrectionsDuringResolution:0=false
-Mac.Game:/Script/Engine.GameNetworkManager:bUseDistanceBasedRelevancy:0=true
-Mac.Game:/Script/Party.Party:DefaultMaxPartySize:0=5
-Mac.Game:/Script/Lobby.LobbyBeaconState:WaitForPlayersTimeRemaining:0=20.0
-Mac.Game:/Script/Engine.GameSession:MaxPlayers:0=16
-Mac.Game:/Script/Engine.GameSession:MaxSpectators:0=2
-Mac.Game:/Script/Engine.GameSession:MaxSplitscreensPerConnection:0=4
-Mac.Game:/Script/Engine.GameSession:bRequiresPushToTalk:0=true
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyName:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CompanyDistinguishedName:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out your copyright notice in the Description page of Project Settings.
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=UE4Game
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
-Mac.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectID:0=461CC78B414BBB84E6CBA9860E0C0621
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:CulturesToStage:0=en
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:DefaultCulture:0=en
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=False
-Mac.Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=False
-Mac.Game:/Script/Engine.HUD:DebugDisplay:0=AI
-Mac.Game:/Script/Engine.PlayerController:InputYawScale:0=2.5
-Mac.Game:/Script/Engine.PlayerController:InputPitchScale:0=-1.75
-Mac.Game:/Script/Engine.PlayerController:InputRollScale:0=1.0
-Mac.Game:/Script/Engine.PlayerController:ForceFeedbackScale:0=1.0
-Mac.Game:/Script/Engine.DebugCameraController:bShowSelectedInfo:0=true
-Mac.Game:/Script/Engine.WorldSettings:ChanceOfPhysicsChunkOverride:0=1.0
-Mac.Game:/Script/Engine.WorldSettings:bEnableChanceOfPhysicsChunkOverride:0=false
-Mac.Game:/Script/Engine.WorldSettings:DefaultAmbientZoneSettings:0=(bIsWorldSettings=true)
-Mac.Game:/Script/Engine.WorldSettings:EnabledPlugins:0=ExampleDeviceProfileSelector
-Mac.Game:/Script/Engine.WorldSettings:MinUndilatedFrameTime:0=0.0005		; 2000 fps
-Mac.Game:/Script/Engine.WorldSettings:MaxUndilatedFrameTime:0=0.4			; 2.5 fps
-Mac.Game:/Script/Engine.WorldSettings:MinGlobalTimeDilation:0=0.0001
-Mac.Game:/Script/Engine.WorldSettings:MaxGlobalTimeDilation:0=20.0
-Mac.Game:/Script/AIModule.AIPerceptionComponent:HearingRange:0=768
-Mac.Game:/Script/AIModule.AIPerceptionComponent:SightRadius:0=3000
-Mac.Game:/Script/AIModule.AIPerceptionComponent:LoseSightRadius:0=3500
-Mac.Game:/Script/AIModule.AIPerceptionComponent:LoSHearingRange:0=1500
-Mac.Game:/Script/AIModule.AIPerceptionComponent:PeripheralVisionAngle:0=90
-Mac.Game:/Script/AIModule.AISense_Hearing:SpeedOfSoundSq:0=0
-Mac.Game:/Script/AIModule.AISenseConfig_Hearing:Implementation:0=Class'/Script/AIModule.AISense_Hearing'
-Mac.Game:/Script/AIModule.AISenseConfig_Hearing:HearingRange:0=768
-Mac.Game:/Script/AIModule.AISenseConfig_Hearing:LoSHearingRange:0=1500
-Mac.Game:/Script/AIModule.AISenseConfig_Hearing:DetectionByAffiliation:0=(bDetectEnemies=true)
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:Implementation:0=Class'/Script/AIModule.AISense_Sight'
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:SightRadius:0=3000
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:LoseSightRadius:0=3500
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:PeripheralVisionAngleDegrees:0=90
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:DetectionByAffiliation:0=(bDetectEnemies=true)
-Mac.Game:/Script/AIModule.AISenseConfig_Sight:AutoSuccessRangeFromLastSeenLocation:0=-1.f
-Mac.Game:/Script/AIModule.AISenseConfig_Damage:Implementation:0=Class'/Script/AIModule.AISense_Damage'
-Mac.Game:/Script/AIModule.EnvQueryManager:MaxAllowedTestingTime:0=0.01
-Mac.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
-Mac.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
-Mac.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
-Mac.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))
-Mac.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")))
-Mac.Input:/Script/Engine.InputSettings:bEnableMouseSmoothing:0=True
-Mac.Input:/Script/Engine.InputSettings:bEnableFOVScaling:0=True
-Mac.Input:/Script/Engine.InputSettings:FOVScale:0=0.011110
-Mac.Input:/Script/Engine.InputSettings:DoubleClickTime:0=0.200000
-Mac.Input:/Script/Engine.InputSettings:DefaultTouchInterface:0=/Engine/MobileResources/HUD/DefaultVirtualJoysticks.DefaultVirtualJoysticks
-Mac.Input:/Script/Engine.InputSettings:bAlwaysShowTouchInterface:0=False
-Mac.Input:/Script/Engine.InputSettings:bShowConsoleOnFourFingerTap:0=True
-Mac.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
-Mac.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=True
-Mac.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:0=(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:1=(AxisKeyName="Gamepad_LeftY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:2=(AxisKeyName="Gamepad_RightX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:3=(AxisKeyName="Gamepad_RightY",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:4=(AxisKeyName="MouseX",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:5=(AxisKeyName="MouseY",AxisProperties=(DeadZone=0.000000,Sensitivity=0.070000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:6=(AxisKeyName="MouseWheelAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:7=(AxisKeyName="Gamepad_LeftTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:8=(AxisKeyName="Gamepad_RightTriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:9=(AxisKeyName="MotionController_Left_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:10=(AxisKeyName="MotionController_Left_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:11=(AxisKeyName="MotionController_Left_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:12=(AxisKeyName="MotionController_Left_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:13=(AxisKeyName="MotionController_Left_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:14=(AxisKeyName="MotionController_Right_Thumbstick_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:15=(AxisKeyName="MotionController_Right_Thumbstick_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:16=(AxisKeyName="MotionController_Right_TriggerAxis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:17=(AxisKeyName="MotionController_Right_Grip1Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:18=(AxisKeyName="MotionController_Right_Grip2Axis",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:19=(AxisKeyName="Gamepad_Special_Left_X",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:AxisConfig:20=(AxisKeyName="Gamepad_Special_Left_Y",AxisProperties=(DeadZone=0.000000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
-Mac.Input:/Script/Engine.InputSettings:bUseMouseForTouch:0=False
-Mac.Input:/Script/Engine.InputSettings:bCaptureMouseOnLaunch:0=True
-Mac.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently_IncludingInitialMouseDown
-Mac.Input:/Script/Engine.InputSettings:bDefaultViewportMouseLock:0=False
-Mac.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockOnCapture
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="moveup",Key=W,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="moveright",Key=D,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="moveup",Key=Up,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="moveright",Key=Right,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:4=(AxisName="movedown",Key=Down,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:AxisMappings:5=(AxisName="moveleft",Key=Left,Scale=1.000000)
-Mac.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
-Mac.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:1=(Key=F11,Command="MainFrame.ToggleFullscreen",Shift=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:2=(Key=F1,Command="viewmode wireframe", bIgnoreShift=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:3=(Key=F2,Command="viewmode unlit")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:4=(Key=F3,Command="viewmode lit")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:5=(Key=F4,Command="viewmode lit_detaillighting")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:6=(Key=F5,Command="viewmode shadercomplexity")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:7=(Key=F9,Command="shot showui")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:8=(Key=Period,Command="RECOMPILESHADERS CHANGED",Control=True,Shift=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:9=(Key=Comma,Command="PROFILEGPU",Control=True,Shift=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:10=(Key=Tab,Command="FocusNextPIEWindow",Control=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:11=(Key=Tab,Command="FocusLastPIEWindow",Control=True,Shift=True)
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:12=(Key=PageDown,Command="PreviousDebugTarget")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:13=(Key=PageUp,Command="NextDebugTarget")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:14=(Key=Apostrophe,Command="EnableGDT")
-Mac.Input:/Script/Engine.PlayerInput:DebugExecBindings:15=(Key=Quote,Command="EnableGDT")
-Mac.Input:/Script/Engine.Console:HistoryBot:0=-1
-Mac.Input:/Script/EngineSettings.ConsoleSettings:MaxScrollbackSize:0=1024
-Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteMapPaths:0=Content/Maps
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:0=(Command="Exit",Desc="Exits the game")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:1=(Command="DebugCreatePlayer 1",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:2=(Command="ToggleDrawEvents",Desc="Toggles annotations for shader debugging with Pix, Razor or similar GPU capture tools")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:3=(Command="Shot",Desc="Make a screenshot")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:4=(Command="RecompileShaders changed",Desc="Recompile shaders that have any changes on their source files")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:5=(Command="RecompileShaders global",Desc="Recompile global shaders that have any changes on their source files")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:6=(Command="RecompileShaders material ",Desc="Recompile shaders for a specific material if it's source files have changed")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:7=(Command="RecompileShaders all",Desc="Recompile all shaders that have any changes on their source files")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:8=(Command="DumpMaterialStats",Desc="Dump material information")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:9=(Command="DumpShaderStats",Desc="Dump shader information")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:10=(Command="DumpShaderPipelineStats",Desc="Dump shader pipeline information")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:11=(Command="StartFPSChart",Desc="after that use StopFPSChart")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:12=(Command="StopFPSChart",Desc="after that look for the output in Saved/Profiling/FPSChartStats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:13=(Command="FreezeAt",Desc="Locks the player view and rendering time.")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:14=(Command="Open",Desc="<MapName> Opens the specified map, doesn't pass previously set options")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:15=(Command="Travel",Desc="<MapName> Travels to the specified map, passes along previously set options")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:16=(Command="ServerTravel",Desc="<MapName> Travels to the specified map and brings clients along, passes along previously set options")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:17=(Command="DisplayAll",Desc="<ClassName> <PropertyName> Display property values for instances of classname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:18=(Command="DisplayAllLocation",Desc="<ClassName> Display location for all instances of classname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:19=(Command="DisplayAllRotation",Desc="<ClassName> Display rotation for all instances of classname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:20=(Command="DisplayClear",Desc="Clears previous DisplayAll entries")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:21=(Command="FlushPersistentDebugLines",Desc="Clears persistent debug line cache")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:22=(Command="GetAll ",Desc="<ClassName> <PropertyName> <Name=ObjectInstanceName> <OUTER=ObjectInstanceName> <SHOWDEFAULTS> <SHOWPENDINGKILLS> <DETAILED> Log property values of all instances of classname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:23=(Command="GetAllState",Desc="<ClassName> Log state names for all instances of classname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:24=(Command="Obj List ",Desc="<Class=ClassName> <Type=MetaClass> <Outer=OuterObject> <Package=InsidePackage> <Inside=InsideObject>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:25=(Command="Obj ListContentRefs",Desc="<Class=ClassName> <ListClass=ClassName>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:26=(Command="Obj Classes",Desc="Shows all classes")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:27=(Command="Obj Refs",Desc="Name=<ObjectName> Class=<OptionalObjectClass> Lists referencers of the specified object")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:28=(Command="EditActor",Desc="<Class=ClassName> or <Name=ObjectName> or TRACE")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:29=(Command="EditDefault",Desc="<Class=ClassName>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:30=(Command="EditObject",Desc="<Class=ClassName> or <Name=ObjectName> or <ObjectName>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:31=(Command="ReloadCfg ",Desc="<Class/ObjectName> Reloads config variables for the specified object/class")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:32=(Command="ReloadLoc ",Desc="<Class/ObjectName> Reloads localized variables for the specified object/class")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:33=(Command="Set ",Desc="<ClassName> <PropertyName> <Value> Sets property to value on objectname")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:34=(Command="SetNoPEC",Desc="<ClassName> <PropertyName> <Value> Sets property to value on objectname without Pre/Post Edit Change notifications")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:35=(Command="Stat FPS",Desc="Shows FPS counter")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:36=(Command="Stat UNIT",Desc="Shows hardware unit framerate")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:37=(Command="Stat UnitGraph",Desc="Draws simple unit time graph")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:38=(Command="Stat NamedEvents",Desc="Stat NamedEvents (Enables named events for external profilers)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:39=(Command="Stat StartFile",Desc="Stat StartFile (starts a stats capture, creating a new file in the Profiling directory; stop with stat StopFile to close the file)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:40=(Command="Stat StopFile",Desc="Stat StopFile (finishes a stats capture started by stat StartFile)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:41=(Command="Stat Hitches",Desc="Stat Hitches (shows an onscreen history of hitches)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:42=(Command="Stat CPULoad",Desc="Stat CPULoad (Shows CPU Utilization)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:43=(Command="Stat DUMPHITCHES",Desc="executes dumpstats on hitches - see log")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:44=(Command="Stat D3D11RHI",Desc="Shows Direct3D 11 stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:45=(Command="Stat LEVELS",Desc="Displays level streaming info")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:46=(Command="Stat GAME",Desc="Displays game performance stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:47=(Command="Stat MEMORY",Desc="Displays memory stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:48=(Command="Stat PHYSICS",Desc="Displays physics performance stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:49=(Command="Stat STREAMING",Desc="Displays basic texture streaming stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:50=(Command="Stat STREAMINGDETAILS",Desc="Displays detailed texture streaming stats")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:51=(Command="Stat GPU",Desc="Displays GPU stats for the frame")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:52=(Command="Stat COLLISION",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:53=(Command="Stat PARTICLES",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:54=(Command="Stat SCRIPT",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:55=(Command="Stat AUDIO",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:56=(Command="Stat ANIM",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:57=(Command="Stat NET",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:58=(Command="Stat LIST",Desc="<Groups/Sets/Group> List groups of stats, saved sets, or specific stats within a specified group")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:59=(Command="Stat splitscreen",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:60=(Command="MemReport",Desc="Outputs memory stats to a profile file. -Full gives more data, -Log outputs to the log")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:61=(Command="ListTextures",Desc="Lists all loaded textures and their current memory footprint")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:62=(Command="ListStreamingTextures",Desc="Lists info all streaming textures")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:63=(Command="InvestigateTexture",Desc="Shows streaming info about the specified texture")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:64=(Command="RestartLevel",Desc="Restarts the level")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:65=(Command="Module List",Desc="Lists all known modules")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:66=(Command="Module Load",Desc="Attempts to load the specified module name")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:67=(Command="Module Unload",Desc="Unloads the specified module name")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:68=(Command="Module Reload",Desc="Reloads the specified module name, unloading it first if needed")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:69=(Command="Module Recompile",Desc="Attempts to recompile a module, first unloading it if needed")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:70=(Command="HotReload",Desc="<UObject DLL Hot Reload> Attempts to recompile a UObject DLL and reload it on the fly")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:71=(Command="ListSounds",Desc="Lists all the loaded sounds and their memory footprint")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:72=(Command="ListWaves",Desc="List the WaveInstances and whether they have a source")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:73=(Command="ListSoundClasses",Desc="Lists a summary of loaded sound collated by class")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:74=(Command="ListAudioComponents",Desc="Dumps a detailed list of all AudioComponent objects")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:75=(Command="ListSoundDurations",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:76=(Command="PlaySoundCue",Desc="Lists a summary of loaded sound collated by class")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:77=(Command="PlaySoundWave",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:78=(Command="SetBaseSoundMix",Desc="<MixName>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:79=(Command="DisableLowPassFilter",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:80=(Command="DisableEQFilter",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:81=(Command="IsolateDryAudio",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:82=(Command="IsolateReverb",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:83=(Command="ResetSoundState",Desc="Resets volumes to default and removes test filters")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:84=(Command="DisableAllScreenMessages",Desc="Disables all on-screen warnings/messages")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:85=(Command="EnableAllScreenMessages",Desc="Enables all on-screen warnings/messages")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:86=(Command="ToggleAllScreenMessages",Desc="Toggles display state of all on-screen warnings/messages")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:87=(Command="ToggleAsyncCompute",Desc="Toggles AsyncCompute for platforms that have it")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:88=(Command="ToggleRenderingThread",Desc="Toggles the rendering thread for platforms that have it")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:89=(Command="CaptureMode",Desc="Toggles display state of all on-screen warnings/messages")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:90=(Command="ShowDebug None",Desc="Toggles ShowDebug w/ current debug type selection")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:91=(Command="ShowDebug Reset",Desc="Turns off ShowDebug, and clears debug type selection")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:92=(Command="ShowDebug NET",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:93=(Command="ShowDebug PHYSICS",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:94=(Command="ShowDebug COLLISION",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:95=(Command="ShowDebug AI",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:96=(Command="ShowDebug CAMERA",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:97=(Command="ShowDebug WEAPON",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:98=(Command="ShowDebug ANIMATION",Desc="Toggles display state of animation debug data")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:99=(Command="ShowDebug BONES",Desc="Toggles display of skeletalmesh bones")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:100=(Command="ShowDebug INPUT",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:101=(Command="ShowDebug FORCEFEEDBACK",Desc="Toggles display of current force feedback values and what is contributing to that calculation")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:102=(Command="ShowDebugToggleSubCategory 3DBONES",Desc="With ShowDebug Bones Toggles bone rendering between single lines and a more complex 3D model per bone")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:103=(Command="ShowDebugToggleSubCategory SYNCGROUPS",Desc="With ShowDebug Animation Toggles display of sync group data")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:104=(Command="ShowDebugToggleSubCategory MONTAGES",Desc="With ShowDebug Animation Toggles display of montage data")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:105=(Command="ShowDebugToggleSubCategory GRAPH",Desc="With ShowDebug Animation Toggles display of animation blueprint graph")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:106=(Command="ShowDebugToggleSubCategory CURVES",Desc="With ShowDebug Animation Toggles display of curve data")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:107=(Command="ShowDebugToggleSubCategory NOTIFIES",Desc="With ShowDebug Animation Toggles display of notify data")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:108=(Command="ShowDebugToggleSubCategory FULLGRAPH",Desc="With ShowDebug Animation Toggles graph display between active nodes only and all nodes")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:109=(Command="ShowDebugToggleSubCategory FULLBLENDSPACEDISPLAY",Desc="With ShowDebug Animation Toggles display of sample blend weights on blendspaces")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:110=(Command="ShowDebugForReticleTargetToggle ",Desc="<DesiredClass> Toggles 'ShowDebug' from showing debug info between reticle target actor (of subclass <DesiredClass>) and camera view target")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:111=(Command="Stat SOUNDMIXES",Desc="Shows active SoundMixes")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:112=(Command="Stat SOUNDWAVES",Desc="Shows active SoundWaves")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:113=(Command="Stat SOUNDCUES",Desc="Shows active SoundCues")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:114=(Command="Stat SOUNDS",Desc="<?> <sort=distance|class|name|waves|default> <-debug> <off> Shows active SoundCues and SoundWaves")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:115=(Command="StartMovieCapture",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:116=(Command="StopMovieCapture",Desc=)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:117=(Command="TraceTag",Desc="Draw traces that use the specified tag")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:118=(Command="TraceTagAll",Desc="Draw all scene queries regardless of the trace tag")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:119=(Command="VisLog",Desc="Launches Log Visualizer tool")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:120=(Command="CycleNavDrawn",Desc="Cycles through navigation data (navmeshes for example) to draw one at a time")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:121=(Command="Log ",Desc="<category> <level> Change verbosity level for a log category")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:122=(Command="Log list",Desc="<search string> Search for log categories")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:123=(Command="Log reset",Desc="Undo any changes to log verbosity")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:124=(Command="RecordAnimation ActorName AnimName",Desc="Record animation for a specified actor to the specified file")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:125=(Command="StopRecordingAnimation All",Desc="Stop all recording animations")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:126=(Command="RecordSequence Filter ActorOrClassName",Desc="Record a level sequence from gameplay. Filter=<All|Actor|Class>")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:127=(Command="StopRecordingSequence",Desc="Stop recording the current sequence. Only one sequence recording can be active at one time.")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:128=(Command="FreezeRendering",Desc="Toggle freezing of most aspects of rendering (such as visibility calculations), useful in conjunction with ToggleDebugCamera to fly around and see how frustum and occlusion culling is working")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:129=(Command="ProfileGPU",Desc="Profile one frame of rendering commands sent to the GPU")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:130=(Command="Automation",Desc="Run an automation command (e.g., Automation RunTests TestName)")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:131=(Command="CsvProfile Start",Desc="Start CSV profiling.")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:ManualAutoCompleteList:132=(Command="CsvProfile Stop",Desc="Stop CSV profiling.")
-Mac.Input:/Script/EngineSettings.ConsoleSettings:BackgroundOpacityPercentage:0=85.000000
-Mac.Input:/Script/EngineSettings.ConsoleSettings:InputColor:0=(R=230,G=230,B=230,A=255)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:HistoryColor:0=(R=180,G=180,B=180,A=255)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCommandColor:0=(B=185,G=109,R=144,A=255)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteCVarColor:0=(B=86,G=158,R=86,A=255)
-Mac.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R=100,G=100,B=100,A=255)
 Mac.Compat:AppCompat:CPUScore1:0=1000
 Mac.Compat:AppCompat:CPUScore2:0=720
 Mac.Compat:AppCompat:CPUScore3:0=630
@@ -2387,219 +2729,6 @@ Mac.Compat:AppCompatGPU-0x1002:0x4A6B:0=3,Radeon X800 XT Secondary
 Mac.Compat:AppCompatGPU-0x1002:0x5D77:0=3,Radeon X800 XT Secondary
 Mac.Compat:AppCompatGPU-0x1002:0x5D4D:0=3,Radeon X850 XT Platinum Edition
 Mac.Compat:AppCompatGPU-0x1002:0x5D6D:0=3,Radeon X850 XT Platinum Edition Secondary
-Mac.Lightmass:DevOptions.StaticLighting:bAllowMultiThreadedStaticLighting:0=True
-Mac.Lightmass:DevOptions.StaticLighting:ViewSingleBounceNumber:0=-1
-Mac.Lightmass:DevOptions.StaticLighting:bUseBilinearFilterLightmaps:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bCompressLightmaps:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bUseConservativeTexelRasterization:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bAccountForTexelSize:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bUseMaxWeight:0=True
-Mac.Lightmass:DevOptions.StaticLighting:MaxTriangleLightingSamples:0=8
-Mac.Lightmass:DevOptions.StaticLighting:MaxTriangleIrradiancePhotonCacheSamples:0=4
-Mac.Lightmass:DevOptions.StaticLighting:bAllow64bitProcess:0=True
-Mac.Lightmass:DevOptions.StaticLighting:DefaultStaticMeshLightingRes:0=32
-Mac.Lightmass:DevOptions.StaticLighting:bAllowCropping:0=False
-Mac.Lightmass:DevOptions.StaticLighting:bGarbageCollectAfterExport:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bRebuildDirtyGeometryForLighting:0=True
-Mac.Lightmass:DevOptions.StaticLighting:bUseEmbree:0=true
-Mac.Lightmass:DevOptions.StaticLighting:bVerifyEmbree:0=false
-Mac.Lightmass:DevOptions.StaticLighting:bUseEmbreePacketTracing:0=false
-Mac.Lightmass:DevOptions.StaticLighting:bUseFilteredCubemapForSkylight:0=true
-Mac.Lightmass:DevOptions.StaticLighting:MappingSurfaceCacheDownsampleFactor:0=2
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:StaticLightingLevelScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityRayOffsetDistance:0=.1
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetDistance:0=3
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityNormalOffsetSampleRadiusScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:VisibilityTangentOffsetSampleRadiusScale:0=.8
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:SmallestTexelRadius:0=.1
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:LightGridSize:0=100
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:AutomaticImportanceVolumeExpandBy:0=500
-Mac.Lightmass:DevOptions.StaticLightingSceneConstants:MinimumImportanceVolumeExtentWithoutWarning:0=10000.0
-Mac.Lightmass:DevOptions.StaticLightingMaterial:bUseDebugMaterial:0=False
-Mac.Lightmass:DevOptions.StaticLightingMaterial:ShowMaterialAttribute:0=None
-Mac.Lightmass:DevOptions.StaticLightingMaterial:EmissiveSampleSize:0=128
-Mac.Lightmass:DevOptions.StaticLightingMaterial:DiffuseSampleSize:0=128
-Mac.Lightmass:DevOptions.StaticLightingMaterial:SpecularSampleSize:0=128
-Mac.Lightmass:DevOptions.StaticLightingMaterial:TransmissionSampleSize:0=256
-Mac.Lightmass:DevOptions.StaticLightingMaterial:NormalSampleSize:0=256
-Mac.Lightmass:DevOptions.StaticLightingMaterial:TerrainSampleScalar:0=4
-Mac.Lightmass:DevOptions.StaticLightingMaterial:DebugDiffuse:0=(R=0.500000,G=0.500000,B=0.500000)
-Mac.Lightmass:DevOptions.StaticLightingMaterial:EnvironmentColor:0=(R=0.00000,G=0.00000,B=0.00000)
-Mac.Lightmass:DevOptions.MeshAreaLights:bVisualizeMeshAreaLightPrimitives:0=False
-Mac.Lightmass:DevOptions.MeshAreaLights:EmissiveIntensityThreshold:0=.01
-Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGridSize:0=100
-Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyNormalAngleThreshold:0=25
-Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyCornerDistanceThreshold:0=.5
-Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightSimplifyMeshBoundingRadiusFractionThreshold:0=.1
-Mac.Lightmass:DevOptions.MeshAreaLights:MeshAreaLightGeneratedDynamicLightSurfaceOffset:0=30
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightSamples:0=False
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bVisualizeVolumeLightInterpolation:0=False
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumHemisphereSamplesScale:0=2
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceLightSampleSpacing:0=300
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:FirstSurfaceSampleLayerHeight:0=50
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:SurfaceSampleLayerHeightSpacing:0=250
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:NumSurfaceSampleLayers:0=2
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:DetailVolumeSampleSpacing:0=300
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:VolumeLightSampleSpacing:0=3000
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxVolumeSamples:0=250000
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:bUseMaxSurfaceSampleNum:0=True
-Mac.Lightmass:DevOptions.PrecomputedDynamicObjectLighting:MaxSurfaceLightSamples:0=500000
-Mac.Lightmass:DevOptions.VolumetricLightmaps:BrickSize:0=4
-Mac.Lightmass:DevOptions.VolumetricLightmaps:MaxRefinementLevels:0=3
-Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForSurfaceGeometry:0=.1
-Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForVolumeGeometry:0=.25
-Mac.Lightmass:DevOptions.VolumetricLightmaps:VoxelizationCellExpansionForLights:0=.1
-Mac.Lightmass:DevOptions.VolumetricLightmaps:TargetNumVolumetricLightmapTasks:0=800
-Mac.Lightmass:DevOptions.VolumetricLightmaps:MinBrickError:0=.01
-Mac.Lightmass:DevOptions.VolumetricLightmaps:SurfaceLightmapMinTexelsPerVoxelAxis:0=1.0
-Mac.Lightmass:DevOptions.VolumetricLightmaps:bCullBricksBelowLandscape:0=true
-Mac.Lightmass:DevOptions.VolumetricLightmaps:LightBrightnessSubdivideThreshold:0=.3
-Mac.Lightmass:DevOptions.PrecomputedVisibility:bVisualizePrecomputedVisibility:0=False
-Mac.Lightmass:DevOptions.PrecomputedVisibility:bCompressVisibilityData:0=True
-Mac.Lightmass:DevOptions.PrecomputedVisibility:bPlaceCellsOnOpaqueOnly:0=True
-Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellDistributionBuckets:0=800
-Mac.Lightmass:DevOptions.PrecomputedVisibility:CellRenderingBucketSize:0=5
-Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellRenderingBuckets:0=5
-Mac.Lightmass:DevOptions.PrecomputedVisibility:PlayAreaHeight:0=220
-Mac.Lightmass:DevOptions.PrecomputedVisibility:MeshBoundsScale:0=1.2
-Mac.Lightmass:DevOptions.PrecomputedVisibility:VisibilitySpreadingIterations:0=1
-Mac.Lightmass:DevOptions.PrecomputedVisibility:MinMeshSamples:0=14
-Mac.Lightmass:DevOptions.PrecomputedVisibility:MaxMeshSamples:0=40
-Mac.Lightmass:DevOptions.PrecomputedVisibility:NumCellSamples:0=24
-Mac.Lightmass:DevOptions.PrecomputedVisibility:NumImportanceSamples:0=40
-Mac.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:MeshBoundsScale:0=1
-Mac.Lightmass:DevOptions.PrecomputedVisibilityModeratelyAggressive:VisibilitySpreadingIterations:0=1
-Mac.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:MeshBoundsScale:0=1
-Mac.Lightmass:DevOptions.PrecomputedVisibilityMostAggressive:VisibilitySpreadingIterations:0=0
-Mac.Lightmass:DevOptions.VolumeDistanceField:VoxelSize:0=75
-Mac.Lightmass:DevOptions.VolumeDistanceField:VolumeMaxDistance:0=900
-Mac.Lightmass:DevOptions.VolumeDistanceField:NumVoxelDistanceSamples:0=800
-Mac.Lightmass:DevOptions.VolumeDistanceField:MaxVoxels:0=3992160
-Mac.Lightmass:DevOptions.StaticShadows:bUseZeroAreaLightmapSpaceFilteredLights:0=False
-Mac.Lightmass:DevOptions.StaticShadows:NumShadowRays:0=8
-Mac.Lightmass:DevOptions.StaticShadows:NumPenumbraShadowRays:0=8
-Mac.Lightmass:DevOptions.StaticShadows:NumBounceShadowRays:0=1
-Mac.Lightmass:DevOptions.StaticShadows:bFilterShadowFactor:0=True
-Mac.Lightmass:DevOptions.StaticShadows:ShadowFactorGradientTolerance:0=0.5
-Mac.Lightmass:DevOptions.StaticShadows:bAllowSignedDistanceFieldShadows:0=True
-Mac.Lightmass:DevOptions.StaticShadows:MaxTransitionDistanceWorldSpace:0=50
-Mac.Lightmass:DevOptions.StaticShadows:ApproximateHighResTexelsPerMaxTransitionDistance:0=50
-Mac.Lightmass:DevOptions.StaticShadows:MinDistanceFieldUpsampleFactor:0=3
-Mac.Lightmass:DevOptions.StaticShadows:MinUnoccludedFraction:0=.0005
-Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceX:0=100
-Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapTransitionSampleDistanceY:0=100
-Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapSuperSampleFactor:0=2
-Mac.Lightmass:DevOptions.StaticShadows:StaticShadowDepthMapMaxSamples:0=4194304
-Mac.Lightmass:DevOptions.ImportanceTracing:bUseStratifiedSampling:0=True
-Mac.Lightmass:DevOptions.ImportanceTracing:NumHemisphereSamples:0=16
-Mac.Lightmass:DevOptions.ImportanceTracing:MaxHemisphereRayAngle:0=89
-Mac.Lightmass:DevOptions.ImportanceTracing:NumAdaptiveRefinementLevels:0=2
-Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveBrightnessThreshold:0=1
-Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveFirstBouncePhotonConeAngle:0=4
-Mac.Lightmass:DevOptions.ImportanceTracing:AdaptiveSkyVarianceThreshold:0=.5
-Mac.Lightmass:DevOptions.ImportanceTracing:bUseRadiositySolverForSkylightMultibounce:0=True
-Mac.Lightmass:DevOptions.ImportanceTracing:bCacheFinalGatherHitPointsForRadiosity:0=False
-Mac.Lightmass:DevOptions.ImportanceTracing:bUseRadiositySolverForLightMultibounce:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonMapping:0=True
-Mac.Lightmass:DevOptions.PhotonMapping:bUseFinalGathering:0=True
-Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonDirectLightingInFinalGather:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bVisualizeCachedApproximateDirectLighting:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bUseIrradiancePhotons:0=True
-Mac.Lightmass:DevOptions.PhotonMapping:bCacheIrradiancePhotonsOnSurfaces:0=True
-Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonPaths:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonGathers:0=True
-Mac.Lightmass:DevOptions.PhotonMapping:bVisualizePhotonImportanceSamples:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bVisualizeIrradiancePhotonCalculation:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:bEmitPhotonsOutsideImportanceVolume:0=False
-Mac.Lightmass:DevOptions.PhotonMapping:ConeFilterConstant:0=1
-Mac.Lightmass:DevOptions.PhotonMapping:NumIrradianceCalculationPhotons:0=400
-Mac.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleFraction:0=.6
-Mac.Lightmass:DevOptions.PhotonMapping:FinalGatherImportanceSampleConeAngle:0=10
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitDiskRadius:0=200
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonEmitConeAngle:0=30
-Mac.Lightmass:DevOptions.PhotonMapping:MaxImportancePhotonSearchDistance:0=2000
-Mac.Lightmass:DevOptions.PhotonMapping:MinImportancePhotonSearchDistance:0=20
-Mac.Lightmass:DevOptions.PhotonMapping:NumImportanceSearchPhotons:0=10
-Mac.Lightmass:DevOptions.PhotonMapping:OutsideImportanceVolumeDensityScale:0=.0005
-Mac.Lightmass:DevOptions.PhotonMapping:DirectPhotonDensity:0=350
-Mac.Lightmass:DevOptions.PhotonMapping:DirectIrradiancePhotonDensity:0=350
-Mac.Lightmass:DevOptions.PhotonMapping:DirectPhotonSearchDistance:0=200
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonPathDensity:0=5
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonDensity:0=600
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectIrradiancePhotonDensity:0=300
-Mac.Lightmass:DevOptions.PhotonMapping:IndirectPhotonSearchDistance:0=200
-Mac.Lightmass:DevOptions.PhotonMapping:PhotonSearchAngleThreshold:0=.5
-Mac.Lightmass:DevOptions.PhotonMapping:IrradiancePhotonSearchConeAngle:0=10
-Mac.Lightmass:DevOptions.PhotonMapping:bUsePhotonSegmentsForVolumeLighting:0=true
-Mac.Lightmass:DevOptions.PhotonMapping:PhotonSegmentMaxLength:0=1000
-Mac.Lightmass:DevOptions.PhotonMapping:GeneratePhotonSegmentChance:0=.01
-Mac.Lightmass:DevOptions.IrradianceCache:bAllowIrradianceCaching:0=True
-Mac.Lightmass:DevOptions.IrradianceCache:bUseIrradianceGradients:0=False
-Mac.Lightmass:DevOptions.IrradianceCache:bShowGradientsOnly:0=False
-Mac.Lightmass:DevOptions.IrradianceCache:bVisualizeIrradianceSamples:0=True
-Mac.Lightmass:DevOptions.IrradianceCache:RecordRadiusScale:0=.8
-Mac.Lightmass:DevOptions.IrradianceCache:InterpolationMaxAngle:0=20
-Mac.Lightmass:DevOptions.IrradianceCache:PointBehindRecordMaxAngle:0=10
-Mac.Lightmass:DevOptions.IrradianceCache:DistanceSmoothFactor:0=4
-Mac.Lightmass:DevOptions.IrradianceCache:AngleSmoothFactor:0=4
-Mac.Lightmass:DevOptions.IrradianceCache:SkyOcclusionSmoothnessReduction:0=.5
-Mac.Lightmass:DevOptions.IrradianceCache:MaxRecordRadius:0=1024
-Mac.Lightmass:DevOptions.IrradianceCache:CacheTaskSize:0=64
-Mac.Lightmass:DevOptions.IrradianceCache:InterpolateTaskSize:0=64
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumShadowRaysScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumPenumbraShadowRaysScale:0=4
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=3
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:MinDistanceFieldUpsampleFactor:0=3
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumHemisphereSamplesScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumImportanceSearchPhotonsScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumDirectPhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:DirectPhotonSearchDistanceScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonPathsScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectPhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumIndirectIrradiancePhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:RecordRadiusScaleScale:0=.75
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:InterpolationMaxAngleScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:IrradianceCacheSmoothFactor:0=.75
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:NumAdaptiveRefinementLevels:0=3
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveBrightnessThresholdScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingMediumQuality:AdaptiveSkyVarianceThresholdScale:0=1
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumShadowRaysScale:0=4
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumPenumbraShadowRaysScale:0=8
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:MinDistanceFieldUpsampleFactor:0=5
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumHemisphereSamplesScale:0=4
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumImportanceSearchPhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumDirectPhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:DirectPhotonSearchDistanceScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonPathsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectPhotonsScale:0=4
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumIndirectIrradiancePhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:RecordRadiusScaleScale:0=.75
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:InterpolationMaxAngleScale:0=.75
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:IrradianceCacheSmoothFactor:0=.75
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:NumAdaptiveRefinementLevels:0=3
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveBrightnessThresholdScale:0=.25
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingHighQuality:AdaptiveSkyVarianceThresholdScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumShadowRaysScale:0=8
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumPenumbraShadowRaysScale:0=32
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:ApproximateHighResTexelsPerMaxTransitionDistanceScale:0=6
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:MinDistanceFieldUpsampleFactor:0=5
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumHemisphereSamplesScale:0=8
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumImportanceSearchPhotonsScale:0=3
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumDirectPhotonsScale:0=4
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:DirectPhotonSearchDistanceScale:0=.5
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonPathsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectPhotonsScale:0=8
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumIndirectIrradiancePhotonsScale:0=2
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:RecordRadiusScaleScale:0=.5625
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:InterpolationMaxAngleScale:0=.75
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:IrradianceCacheSmoothFactor:0=.75
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:NumAdaptiveRefinementLevels:0=3
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveBrightnessThresholdScale:0=.25
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveFirstBouncePhotonConeAngleScale:0=2.5
-Mac.Lightmass:DevOptions.StaticLightingProductionQuality:AdaptiveSkyVarianceThresholdScale:0=.5
 Mac.Scalability:ScalabilitySettings:PerfIndexThresholds_ResolutionQuality:0=GPU 18 42 115
 Mac.Scalability:ScalabilitySettings:PerfIndexThresholds_ViewDistanceQuality:0=Min 18 42 105
 Mac.Scalability:ScalabilitySettings:PerfIndexThresholds_AntiAliasingQuality:0=GPU 18 42 115

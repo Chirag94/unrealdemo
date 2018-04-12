@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7967356EE9CC5667D3C6741"
+               BlueprintIdentifier = "DF9C5F6A22AC6262874C01DC"
                BuildableName = "ballgame.app"
                BlueprintName = "ballgame"
                ReferencedContainer = "container:ballgame.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7967356EE9CC5667D3C6741"
+               BlueprintIdentifier = "DF9C5F6A22AC6262874C01DC"
                BuildableName = "ballgame.app"
                BlueprintName = "ballgame"
                ReferencedContainer = "container:ballgame.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7967356EE9CC5667D3C6741"
+               BlueprintIdentifier = "DF9C5F6A22AC6262874C01DC"
                BuildableName = "ballgame.app"
                BlueprintName = "ballgame"
                ReferencedContainer = "container:ballgame.xcodeproj">
@@ -63,7 +63,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "&quot;/Users/chiragsharma/Documents/Unreal Projects/ballgame/ballgame.uproject&quot;"
+            argument = "&quot;/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/ballgame.uproject&quot;"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C7967356EE9CC5667D3C6741"
+               BlueprintIdentifier = "DF9C5F6A22AC6262874C01DC"
                BuildableName = "ballgame.app"
                BlueprintName = "ballgame"
                ReferencedContainer = "container:ballgame.xcodeproj">

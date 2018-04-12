@@ -5,49 +5,50 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "base.h"
+#include "MyComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-void EmptyLinkFunctionForGeneratedCodebase() {}
+void EmptyLinkFunctionForGeneratedCodeMyComponent() {}
 // Cross Module References
-	BALLGAME_API UClass* Z_Construct_UClass_Abase_NoRegister();
-	BALLGAME_API UClass* Z_Construct_UClass_Abase();
-	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	BALLGAME_API UClass* Z_Construct_UClass_UMyComponent_NoRegister();
+	BALLGAME_API UClass* Z_Construct_UClass_UMyComponent();
+	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_ballgame();
 // End Cross Module References
-	void Abase::StaticRegisterNativesAbase()
+	void UMyComponent::StaticRegisterNativesUMyComponent()
 	{
 	}
-	UClass* Z_Construct_UClass_Abase_NoRegister()
+	UClass* Z_Construct_UClass_UMyComponent_NoRegister()
 	{
-		return Abase::StaticClass();
+		return UMyComponent::StaticClass();
 	}
-	UClass* Z_Construct_UClass_Abase()
+	UClass* Z_Construct_UClass_UMyComponent()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
 			static UObject* (*const DependentSingletons[])() = {
-				(UObject* (*)())Z_Construct_UClass_ACharacter,
+				(UObject* (*)())Z_Construct_UClass_UActorComponent,
 				(UObject* (*)())Z_Construct_UPackage__Script_ballgame,
 			};
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-				{ "HideCategories", "Navigation" },
-				{ "IncludePath", "base.h" },
-				{ "ModuleRelativePath", "base.h" },
+				{ "BlueprintSpawnableComponent", "" },
+				{ "ClassGroupNames", "Custom" },
+				{ "IncludePath", "MyComponent.h" },
+				{ "ModuleRelativePath", "MyComponent.h" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
-				TCppClassTypeTraits<Abase>::IsAbstract,
+				TCppClassTypeTraits<UMyComponent>::IsAbstract,
 			};
 			static const UE4CodeGen_Private::FClassParams ClassParams = {
-				&Abase::StaticClass,
+				&UMyComponent::StaticClass,
 				DependentSingletons, ARRAY_COUNT(DependentSingletons),
-				0x00900080u,
+				0x00B00080u,
 				nullptr, 0,
 				nullptr, 0,
 				nullptr,
@@ -59,9 +60,9 @@ void EmptyLinkFunctionForGeneratedCodebase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(Abase, 4112820495);
-	static FCompiledInDefer Z_CompiledInDefer_UClass_Abase(Z_Construct_UClass_Abase, &Abase::StaticClass, TEXT("/Script/ballgame"), TEXT("Abase"), false, nullptr, nullptr, nullptr);
-	DEFINE_VTABLE_PTR_HELPER_CTOR(Abase);
+	IMPLEMENT_CLASS(UMyComponent, 2054479251);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UMyComponent(Z_Construct_UClass_UMyComponent, &UMyComponent::StaticClass, TEXT("/Script/ballgame"), TEXT("UMyComponent"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UMyComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

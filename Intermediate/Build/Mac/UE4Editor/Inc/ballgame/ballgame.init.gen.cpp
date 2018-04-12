@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeballgame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ballgame",
 				PKG_CompiledIn | 0x00000000,
-				0xBB23B5A3,
-				0xEFDCBE1F,
+				0xAF8544B7,
+				0xC0945787,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

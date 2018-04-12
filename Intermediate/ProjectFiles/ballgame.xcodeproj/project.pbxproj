@@ -14,11 +14,13 @@
 		1CA02256E208777020EF3683 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */; };
 		2C4E399CAD3837ECD0F8CBD6 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */; };
 		24EDCC7DA8ED33C0F2D72993 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultInput.ini */; };
-		BD943C9440C7D567E6680D2B /* ballgame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4A63405DDBB58D29AB242 /* ballgame.Build.cs */; };
-		BE2F1A3CC13A0067CA44C217 /* ballgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FC90343C64361B250D39E /* ballgame.cpp */; };
-		E1F4CC8351C37B23E2F9D610 /* ballgame.h in Sources */ = {isa = PBXBuildFile; fileRef = AD99A5AB68A66127118FC9F5 /* ballgame.h */; };
-		13B7140C57518F6D5C7C5ACD /* baseclassShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D7D1606C99F347039B956AA /* baseclassShape.cpp */; };
-		2097F80CEFAB8C522AD76F99 /* baseclassShape.h in Sources */ = {isa = PBXBuildFile; fileRef = AE6FCB916969B4313ED83EEB /* baseclassShape.h */; };
+		BD943C9440C7D567E6680D2B /* MyComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4A63405DDBB58D29AB242 /* MyComponent.cpp */; };
+		BE2F1A3CC13A0067CA44C217 /* MyComponent.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FC90343C64361B250D39E /* MyComponent.h */; };
+		E1F4CC8351C37B23E2F9D610 /* ballgame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = AD99A5AB68A66127118FC9F5 /* ballgame.Build.cs */; };
+		13B7140C57518F6D5C7C5ACD /* ballgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D7D1606C99F347039B956AA /* ballgame.cpp */; };
+		2097F80CEFAB8C522AD76F99 /* ballgame.h in Sources */ = {isa = PBXBuildFile; fileRef = AE6FCB916969B4313ED83EEB /* ballgame.h */; };
+		905A5E715A58BC5A616AECBF /* baseclassShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58837DB0EF07A3960D7C575A /* baseclassShape.cpp */; };
+		D3A306D004246B47590D7C95 /* baseclassShape.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D1AF8D11B153744820C39E6 /* baseclassShape.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,59 +31,62 @@
 		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
 		4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
 		CEDBC2E8B849B360A801E011 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
-		6CD4A63405DDBB58D29AB242 /* ballgame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ballgame.Build.cs"; path = "../../Source/ballgame/ballgame.Build.cs"; sourceTree = SOURCE_ROOT; };
-		6A0FC90343C64361B250D39E /* ballgame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ballgame.cpp"; path = "../../Source/ballgame/ballgame.cpp"; sourceTree = SOURCE_ROOT; };
-		AD99A5AB68A66127118FC9F5 /* ballgame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ballgame.h"; path = "../../Source/ballgame/ballgame.h"; sourceTree = SOURCE_ROOT; };
-		6D7D1606C99F347039B956AA /* baseclassShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "baseclassShape.cpp"; path = "../../Source/ballgame/baseclassShape.cpp"; sourceTree = SOURCE_ROOT; };
-		AE6FCB916969B4313ED83EEB /* baseclassShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "baseclassShape.h"; path = "../../Source/ballgame/baseclassShape.h"; sourceTree = SOURCE_ROOT; };
-		DF9C5F6A22AC6262874C01DC /* ballgame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ballgame; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD4A63405DDBB58D29AB242 /* MyComponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MyComponent.cpp"; path = "../../Source/ballgame/MyComponent.cpp"; sourceTree = SOURCE_ROOT; };
+		6A0FC90343C64361B250D39E /* MyComponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MyComponent.h"; path = "../../Source/ballgame/MyComponent.h"; sourceTree = SOURCE_ROOT; };
+		AD99A5AB68A66127118FC9F5 /* ballgame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ballgame.Build.cs"; path = "../../Source/ballgame/ballgame.Build.cs"; sourceTree = SOURCE_ROOT; };
+		6D7D1606C99F347039B956AA /* ballgame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ballgame.cpp"; path = "../../Source/ballgame/ballgame.cpp"; sourceTree = SOURCE_ROOT; };
+		AE6FCB916969B4313ED83EEB /* ballgame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ballgame.h"; path = "../../Source/ballgame/ballgame.h"; sourceTree = SOURCE_ROOT; };
+		58837DB0EF07A3960D7C575A /* baseclassShape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "baseclassShape.cpp"; path = "../../Source/ballgame/baseclassShape.cpp"; sourceTree = SOURCE_ROOT; };
+		4D1AF8D11B153744820C39E6 /* baseclassShape.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "baseclassShape.h"; path = "../../Source/ballgame/baseclassShape.h"; sourceTree = SOURCE_ROOT; };
+		19CE69E876A40D16A3791226 /* ballgame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = ballgame; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EFD148C11CF8B20C3EDE77CC = {
+		5AACFC86C15B542C182CDC60 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2F1A3CC13A0067CA44C217 /* ballgame.cpp in Sources */,
-				13B7140C57518F6D5C7C5ACD /* baseclassShape.cpp in Sources */,
+				BD943C9440C7D567E6680D2B /* MyComponent.cpp in Sources */,
+				13B7140C57518F6D5C7C5ACD /* ballgame.cpp in Sources */,
+				905A5E715A58BC5A616AECBF /* baseclassShape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXContainerItemProxy section */
-		638B1AB444DD3CD2F23D8E06 /* PBXContainerItemProxy */ = {
+		AF693ACD35BDFB168A3D87BC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FE44394A18E959C42BBEBEFF /* Project object */;
+			containerPortal = EFD148C11CF8B20C3EDE77CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C88C46E690AC6EAF9C9F8E6;
+			remoteGlobalIDString = FE44394A18E959C42BBEBEFF;
 			remoteInfo = "ballgame_Build";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXTargetDependency section */
-		54116F3CA20FD35C7A981F82 /* PBXTargetDependency */ = {
+		57FBAE1E283C331783685C05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C88C46E690AC6EAF9C9F8E6 /* ballgame_Build */;
-			targetProxy = 638B1AB444DD3CD2F23D8E06 /* PBXContainerItemProxy */;
+			target = FE44394A18E959C42BBEBEFF /* ballgame_Build */;
+			targetProxy = AF693ACD35BDFB168A3D87BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXGroup section */
-		D34BA1DE5B4661355613CFF1 = {
+		E4BC35B160AB4B693323EF89 = {
 			isa = PBXGroup;
 			children = (
-				C8D8264A718C165650656881 /* Source */,
-				A6466C85413AAF0CE11C017B /* Config */,
+				5CF430AFA06973ACD7AAAA00 /* Source */,
+				450FC455F5A8045FB2EBBAA1 /* Config */,
 				10E4841AB4578BB4EF66F8B7 /* ballgame.uproject */,
-				83B1FDA0E4C3915A0F6A187D /* Products */,
+				FEA0195E61C3B2A43A305869 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C8D8264A718C165650656881 = {
+		5CF430AFA06973ACD7AAAA00 = {
 			isa = PBXGroup;
 			children = (
-				9F71460792FA70C07C469480 /* ballgame */,
+				E822E24ABF53221AF13CAA9E /* ballgame */,
 				940AC694D607EE88F16DFF10 /* ballgame.Target.cs */,
 				6EF1EB4E659A8BF798C986A9 /* ballgameEditor.Target.cs */,
 			);
@@ -89,20 +94,22 @@
 			path = "Source";
 			sourceTree = "<group>";
 		};
-		9F71460792FA70C07C469480 = {
+		E822E24ABF53221AF13CAA9E = {
 			isa = PBXGroup;
 			children = (
-				6CD4A63405DDBB58D29AB242 /* ballgame.Build.cs */,
-				6A0FC90343C64361B250D39E /* ballgame.cpp */,
-				AD99A5AB68A66127118FC9F5 /* ballgame.h */,
-				6D7D1606C99F347039B956AA /* baseclassShape.cpp */,
-				AE6FCB916969B4313ED83EEB /* baseclassShape.h */,
+				6CD4A63405DDBB58D29AB242 /* MyComponent.cpp */,
+				6A0FC90343C64361B250D39E /* MyComponent.h */,
+				AD99A5AB68A66127118FC9F5 /* ballgame.Build.cs */,
+				6D7D1606C99F347039B956AA /* ballgame.cpp */,
+				AE6FCB916969B4313ED83EEB /* ballgame.h */,
+				58837DB0EF07A3960D7C575A /* baseclassShape.cpp */,
+				4D1AF8D11B153744820C39E6 /* baseclassShape.h */,
 			);
 			name = "ballgame";
 			path = "Source/ballgame";
 			sourceTree = "<group>";
 		};
-		A6466C85413AAF0CE11C017B = {
+		450FC455F5A8045FB2EBBAA1 = {
 			isa = PBXGroup;
 			children = (
 				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
@@ -114,10 +121,10 @@
 			path = "Config";
 			sourceTree = "<group>";
 		};
-		83B1FDA0E4C3915A0F6A187D /* Products */ = {
+		FEA0195E61C3B2A43A305869 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF9C5F6A22AC6262874C01DC /* ballgame */,
+				19CE69E876A40D16A3791226 /* ballgame */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,10 +132,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		2C88C46E690AC6EAF9C9F8E6 /* ballgame_Build */ = {
+		FE44394A18E959C42BBEBEFF /* ballgame_Build */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/chiragsharma/Documents/Unreal Projects/ballgame/ballgame.uproject\" -buildscw";
-			buildConfigurationList = 57FBAE1E283C331783685C05 /* Build configuration list for PBXLegacyTarget "ballgame_Build" */;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/ballgame.uproject\" -buildscw";
+			buildConfigurationList = D0F8B43CCDE25C1974F1055A /* Build configuration list for PBXLegacyTarget "ballgame_Build" */;
 			buildPhases = (
 			);
 			buildToolPath = "/Users/Shared/Epic Games/UE_4.19/Engine/Build/BatchFiles/Mac/Build.sh";
@@ -142,28 +149,28 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		C7967356EE9CC5667D3C6741 /* ballgame */ = {
+		DF9C5F6A22AC6262874C01DC /* ballgame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82184C5B7172AFF3FB650F26 /* Build configuration list for PBXNativeTarget "ballgame" */;
+			buildConfigurationList = 2C88C46E690AC6EAF9C9F8E6 /* Build configuration list for PBXNativeTarget "ballgame" */;
 			buildPhases = (
 			);
 			dependencies = (
-				54116F3CA20FD35C7A981F82 /* PBXTargetDependency */,
+				57FBAE1E283C331783685C05 /* PBXTargetDependency */,
 			);
 			name = "ballgame";
 			passBuildSettingsInEnvironment = 1;
 			productName = "ballgame";
-			productReference = "DF9C5F6A22AC6262874C01DC";
+			productReference = "19CE69E876A40D16A3791226";
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXNativeTarget section */
-		AF693ACD35BDFB168A3D87BC /* ballgame_Index */ = {
+		D34BA1DE5B4661355613CFF1 /* ballgame_Index */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19CE69E876A40D16A3791226 /* Build configuration list for PBXNativeTarget "ballgame_Index" */;
+			buildConfigurationList = 83B1FDA0E4C3915A0F6A187D /* Build configuration list for PBXNativeTarget "ballgame_Index" */;
 			buildPhases = (
-				EFD148C11CF8B20C3EDE77CC /* Sources */,
+				5AACFC86C15B542C182CDC60 /* Sources */,
 			);
 			dependencies = (
 			);
@@ -175,38 +182,38 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE44394A18E959C42BBEBEFF /* Project object */ = {
+		EFD148C11CF8B20C3EDE77CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Epic Games, Inc.";
 				TargetAttributes = {
-					C7967356EE9CC5667D3C6741 = {
+					DF9C5F6A22AC6262874C01DC = {
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = D0F8B43CCDE25C1974F1055A /* Build configuration list for PBXProject "ballgame" */;
+			buildConfigurationList = 487B68E45D89A8BC28C3B81C /* Build configuration list for PBXProject "ballgame" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en
 			);
-			mainGroup = D34BA1DE5B4661355613CFF1;
-			productRefGroup = 83B1FDA0E4C3915A0F6A187D;
+			mainGroup = E4BC35B160AB4B693323EF89;
+			productRefGroup = FEA0195E61C3B2A43A305869;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-			C7967356EE9CC5667D3C6741 /* ballgame */,
-			2C88C46E690AC6EAF9C9F8E6 /* ballgame_Build */,
-			AF693ACD35BDFB168A3D87BC /* ballgame_Index */,
+			DF9C5F6A22AC6262874C01DC /* ballgame */,
+			FE44394A18E959C42BBEBEFF /* ballgame_Build */,
+			D34BA1DE5B4661355613CFF1 /* ballgame_Index */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		487B68E45D89A8BC28C3B81C /* "DebugGame" */ = {
+		C200AB93930D99258BDFE6BD /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -738,7 +745,7 @@
 			};
 			name = "DebugGame";
 		};
-		C200AB93930D99258BDFE6BD /* "DebugGame Editor" */ = {
+		FFEF1C044928FCF6A9F6E5CE /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1270,7 +1277,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		FFEF1C044928FCF6A9F6E5CE /* "Development" */ = {
+		DC130CB0465EC704A32A0293 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1802,7 +1809,7 @@
 			};
 			name = "Development";
 		};
-		DC130CB0465EC704A32A0293 /* "Development Editor" */ = {
+		9DE91AC32392ED63F10A24E7 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2334,7 +2341,7 @@
 			};
 			name = "Development Editor";
 		};
-		9DE91AC32392ED63F10A24E7 /* "Shipping" */ = {
+		13C1072750C87971EA507654 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2866,7 +2873,7 @@
 			};
 			name = "Shipping";
 		};
-		E4BC35B160AB4B693323EF89 /* "DebugGame" */ = {
+		6F4A5B651013E2B364CC57B4 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2877,14 +2884,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2892,7 +2899,7 @@
 			};
 			name = "DebugGame";
 		};
-		6F4A5B651013E2B364CC57B4 /* "DebugGame Editor" */ = {
+		65C156C96E14F9B7AFFB4CF1 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2907,7 +2914,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		65C156C96E14F9B7AFFB4CF1 /* "Development" */ = {
+		0CCB07CD07761F34E8782202 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2918,14 +2925,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2933,7 +2940,7 @@
 			};
 			name = "Development";
 		};
-		0CCB07CD07761F34E8782202 /* "Development Editor" */ = {
+		62BCC0797442A3C5762BFEC9 /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2948,7 +2955,7 @@
 			};
 			name = "Development Editor";
 		};
-		62BCC0797442A3C5762BFEC9 /* "Shipping" */ = {
+		C8D8264A718C165650656881 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2959,14 +2966,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2974,7 +2981,7 @@
 			};
 			name = "Shipping";
 		};
-		FEA0195E61C3B2A43A305869 /* "DebugGame" */ = {
+		AEC5A8D8CEC270D1C3B89B60 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -2984,7 +2991,7 @@
 			};
 			name = "DebugGame";
 		};
-		AEC5A8D8CEC270D1C3B89B60 /* "DebugGame Editor" */ = {
+		02B61C31EFDBEE6EAE31D8DE /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -2994,7 +3001,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		02B61C31EFDBEE6EAE31D8DE /* "Development" */ = {
+		8C5EFC0A442AB6BFEF4655DB /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3004,7 +3011,7 @@
 			};
 			name = "Development";
 		};
-		8C5EFC0A442AB6BFEF4655DB /* "Development Editor" */ = {
+		4DCEC9143DA79897D00C6C5A /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3014,7 +3021,7 @@
 			};
 			name = "Development Editor";
 		};
-		4DCEC9143DA79897D00C6C5A /* "Shipping" */ = {
+		A6466C85413AAF0CE11C017B /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3024,7 +3031,7 @@
 			};
 			name = "Shipping";
 		};
-		5AACFC86C15B542C182CDC60 /* "DebugGame" */ = {
+		181F112C9732DD7BC53F1676 /* "DebugGame" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3035,14 +3042,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Mac-DebugGame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3050,7 +3057,7 @@
 			};
 			name = "DebugGame";
 		};
-		181F112C9732DD7BC53F1676 /* "DebugGame Editor" */ = {
+		A66B889ABBA4B6213A43C6D6 /* "DebugGame Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3065,7 +3072,7 @@
 			};
 			name = "DebugGame Editor";
 		};
-		A66B889ABBA4B6213A43C6D6 /* "Development" */ = {
+		CE3E28506AD33A7B69F48EF0 /* "Development" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3076,14 +3083,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3091,7 +3098,7 @@
 			};
 			name = "Development";
 		};
-		CE3E28506AD33A7B69F48EF0 /* "Development Editor" */ = {
+		10F29B5D59F1EAC41941EDAD /* "Development Editor" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64";
@@ -3106,7 +3113,7 @@
 			};
 			name = "Development Editor";
 		};
-		10F29B5D59F1EAC41941EDAD /* "Shipping" */ = {
+		9F71460792FA70C07C469480 /* "Shipping" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
@@ -3117,14 +3124,14 @@
 				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
 				"SDKROOT[sdk=iphoneos]" = iphoneos;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/Mac";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/Mac";
 				"SDKROOT[sdk=macosx]" = macosx;
 				INFOPLIST_OUTPUT_FORMAT = xml;
 				COMBINE_HIDPI_IMAGES = YES;
-				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Binaries/IOS/Payload";
-				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/Mac/ballgame-Mac-Shipping-Info.plist";
-				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame-Info.plist";
-				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/ballgame/Intermediate/IOS/ballgame.entitlements";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Binaries/IOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/Mac/ballgame-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "/Users/chiragsharma/Documents/Unreal Projects/unrealdemo/Intermediate/IOS/ballgame.entitlements";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				SDKROOT = macosx;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3135,55 +3142,55 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D0F8B43CCDE25C1974F1055A /* Build configuration list for PBXProject "ballgame" */ = {
+		487B68E45D89A8BC28C3B81C /* Build configuration list for PBXProject "ballgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				487B68E45D89A8BC28C3B81C /* "DebugGame" */,
-				C200AB93930D99258BDFE6BD /* "DebugGame Editor" */,
-				FFEF1C044928FCF6A9F6E5CE /* "Development" */,
-				DC130CB0465EC704A32A0293 /* "Development Editor" */,
-				9DE91AC32392ED63F10A24E7 /* "Shipping" */,
+				C200AB93930D99258BDFE6BD /* "DebugGame" */,
+				FFEF1C044928FCF6A9F6E5CE /* "DebugGame Editor" */,
+				DC130CB0465EC704A32A0293 /* "Development" */,
+				9DE91AC32392ED63F10A24E7 /* "Development Editor" */,
+				13C1072750C87971EA507654 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		57FBAE1E283C331783685C05 /* Build configuration list for PBXLegacyTarget "ballgame_Build" */ = {
+		D0F8B43CCDE25C1974F1055A /* Build configuration list for PBXLegacyTarget "ballgame_Build" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEA0195E61C3B2A43A305869 /* "DebugGame" */,
-				AEC5A8D8CEC270D1C3B89B60 /* "DebugGame Editor" */,
-				02B61C31EFDBEE6EAE31D8DE /* "Development" */,
-				8C5EFC0A442AB6BFEF4655DB /* "Development Editor" */,
-				4DCEC9143DA79897D00C6C5A /* "Shipping" */,
+				AEC5A8D8CEC270D1C3B89B60 /* "DebugGame" */,
+				02B61C31EFDBEE6EAE31D8DE /* "DebugGame Editor" */,
+				8C5EFC0A442AB6BFEF4655DB /* "Development" */,
+				4DCEC9143DA79897D00C6C5A /* "Development Editor" */,
+				A6466C85413AAF0CE11C017B /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		82184C5B7172AFF3FB650F26 /* Build configuration list for PBXNativeTarget "ballgame" */ = {
+		2C88C46E690AC6EAF9C9F8E6 /* Build configuration list for PBXNativeTarget "ballgame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4BC35B160AB4B693323EF89 /* "DebugGame" */,
-				6F4A5B651013E2B364CC57B4 /* "DebugGame Editor" */,
-				65C156C96E14F9B7AFFB4CF1 /* "Development" */,
-				0CCB07CD07761F34E8782202 /* "Development Editor" */,
-				62BCC0797442A3C5762BFEC9 /* "Shipping" */,
+				6F4A5B651013E2B364CC57B4 /* "DebugGame" */,
+				65C156C96E14F9B7AFFB4CF1 /* "DebugGame Editor" */,
+				0CCB07CD07761F34E8782202 /* "Development" */,
+				62BCC0797442A3C5762BFEC9 /* "Development Editor" */,
+				C8D8264A718C165650656881 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
-		19CE69E876A40D16A3791226 /* Build configuration list for PBXNativeTarget "ballgame_Index" */ = {
+		83B1FDA0E4C3915A0F6A187D /* Build configuration list for PBXNativeTarget "ballgame_Index" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AACFC86C15B542C182CDC60 /* "DebugGame" */,
-				181F112C9732DD7BC53F1676 /* "DebugGame Editor" */,
-				A66B889ABBA4B6213A43C6D6 /* "Development" */,
-				CE3E28506AD33A7B69F48EF0 /* "Development Editor" */,
-				10F29B5D59F1EAC41941EDAD /* "Shipping" */,
+				181F112C9732DD7BC53F1676 /* "DebugGame" */,
+				A66B889ABBA4B6213A43C6D6 /* "DebugGame Editor" */,
+				CE3E28506AD33A7B69F48EF0 /* "Development" */,
+				10F29B5D59F1EAC41941EDAD /* "Development Editor" */,
+				9F71460792FA70C07C469480 /* "Shipping" */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE44394A18E959C42BBEBEFF /* Project object */;
+	rootObject = EFD148C11CF8B20C3EDE77CC /* Project object */;
 }
